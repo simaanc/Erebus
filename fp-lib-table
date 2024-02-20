@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Erebus")(type "KiCad")(uri "${KIPRJMOD}/Erebus.pretty")(options "")(descr ""))
+)

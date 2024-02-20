@@ -3,26 +3,171 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.1,
-        "copper_line_width": 0.2,
+        "board_outline_line_width": 0.09999999999999999,
+        "copper_line_width": 0.19999999999999998,
+        "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.049999999999999996,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.09999999999999999,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
         "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
+        },
         "silk_line_width": 0.15,
+        "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "min_clearance": 0.5
+        }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
-      "rules": {
-        "min_copper_edge_clearance": 0.0,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0
+      "meta": {
+        "version": 2
       },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "warning",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_dangling": "warning",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.7999999999999999,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.09999999999999999,
+        "min_via_diameter": 0.5,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
       "track_widths": [],
-      "via_dimensions": []
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
     },
     "layer_presets": [],
     "viewports": []
@@ -330,6 +475,338 @@
     [
       "a87a9230-372e-45a2-97eb-0c46b92f006f",
       "multiplexers"
+    ],
+    [
+      "d0b129e8-fd05-4742-a062-660bf68fb884",
+      "keys"
+    ],
+    [
+      "4c6e1e52-53d4-43e4-83bd-6b0593e5dd44",
+      "sensor0"
+    ],
+    [
+      "c4964cec-6d0a-41c5-be41-6fa8180f3981",
+      "sensor1"
+    ],
+    [
+      "70f8cdd4-03f7-42f3-b2c8-0f4c625284b5",
+      "sensor2"
+    ],
+    [
+      "609a556f-18a7-4134-8698-681c30a5fd7c",
+      "sensor3"
+    ],
+    [
+      "61e26291-461d-4c1b-b728-0376d804ab89",
+      "sensor4"
+    ],
+    [
+      "05951c47-02df-4815-b4cc-09f8da58613b",
+      "sensor5"
+    ],
+    [
+      "b98977a2-300c-48e9-9173-ccad54e33f3c",
+      "sensor6"
+    ],
+    [
+      "c3c786db-3f84-44c0-87eb-5ddb0303e181",
+      "sensor7"
+    ],
+    [
+      "66bf2457-f5cc-4c4c-b3c0-d3485e1420a9",
+      "sensor8"
+    ],
+    [
+      "4fcaef03-9df0-48bc-85ec-0fd371e02c22",
+      "sensor9"
+    ],
+    [
+      "63f0f95f-d2a7-4430-8e98-cd0d6085e5b6",
+      "sensor10"
+    ],
+    [
+      "ccef8ac7-27a1-44c0-bd1a-3dec5e224da0",
+      "sensor11"
+    ],
+    [
+      "1927b8e5-5598-4e55-a9bb-35c39ea204d6",
+      "sensor12"
+    ],
+    [
+      "ce1da959-ad07-40cf-81fe-2fd30795b521",
+      "sensor14"
+    ],
+    [
+      "cdd5c1b0-934f-4588-803d-09e7ee1623af",
+      "sensor13"
+    ],
+    [
+      "ea56537f-5073-4bc2-8e80-ed4853f1e298",
+      "sensor15"
+    ],
+    [
+      "b9ec58dd-4a1d-412b-bae9-ea0f13346d64",
+      "sensor16"
+    ],
+    [
+      "db387faf-b5c0-4a7c-b43c-7a9d6ebe14d2",
+      "sensor17"
+    ],
+    [
+      "f847efcc-89c6-4909-9861-f165496d2aac",
+      "sensor18"
+    ],
+    [
+      "e57a9ae8-29ad-41a3-bc85-7e4abc1626dd",
+      "sensor19"
+    ],
+    [
+      "8d3d6689-24fe-4f4f-920f-15adc37681c0",
+      "sensor20"
+    ],
+    [
+      "b47005d9-7cb3-461c-9954-16a4c07bc1d3",
+      "sensor21"
+    ],
+    [
+      "0a3a5beb-b8b0-486a-9d06-d81f092623dc",
+      "sensor22"
+    ],
+    [
+      "65fef0d5-95fd-45db-9221-24896e9ea888",
+      "sensor23"
+    ],
+    [
+      "9407d66f-248f-4bef-8059-b9d726735784",
+      "sensor24"
+    ],
+    [
+      "91528724-f1a3-4210-8669-22a3989ba188",
+      "sensor25"
+    ],
+    [
+      "7b97d093-6120-4e1a-b614-432d601ca961",
+      "sensor26"
+    ],
+    [
+      "bc878042-76ac-4c38-9884-e810e76e53fd",
+      "sensor27"
+    ],
+    [
+      "4fe54b0b-906a-4a43-8d26-afc0da808e19",
+      "sensor28"
+    ],
+    [
+      "e414214a-8e24-40ea-b483-fe8c6fd8c609",
+      "sensor29"
+    ],
+    [
+      "aa6efc1e-76ff-4896-83a0-0e0e9a1e24db",
+      "sensor30"
+    ],
+    [
+      "5f2df956-0fbc-4fb6-b0c1-9c24cc7c1532",
+      "sensor31"
+    ],
+    [
+      "ceb62003-9a06-40d2-802b-7ff4e9c8e2ad",
+      "sensor32"
+    ],
+    [
+      "72a02de5-2767-49c4-903a-acfec1e9f90d",
+      "sensor33"
+    ],
+    [
+      "573e7e2b-543a-4a42-a243-9ba965b8f5fc",
+      "sensor34"
+    ],
+    [
+      "7380bf4d-d981-4087-9892-b49dee43eaed",
+      "sensor35"
+    ],
+    [
+      "370e5e01-f5ce-4655-a377-a8f4d5f1c391",
+      "sensor36"
+    ],
+    [
+      "36658a17-6b02-48b1-b169-54d62a910bd3",
+      "sensor37"
+    ],
+    [
+      "14748538-a3d8-407c-90b6-c74c1b86a9f7",
+      "sensor38"
+    ],
+    [
+      "5f5abde3-6151-4e62-b94d-837bb7ce142e",
+      "sensor39"
+    ],
+    [
+      "f3d70164-49b6-405d-af25-8a3e7850a7a1",
+      "sensor40"
+    ],
+    [
+      "28d92cd4-8ae7-4e30-b22f-ac39ad2d46b0",
+      "sensor41"
+    ],
+    [
+      "db4dd474-c2ae-46e6-a0b5-eadd9293340a",
+      "sensor42"
+    ],
+    [
+      "25a3fa55-193b-4285-96d9-bbb28816bd53",
+      "sensor43"
+    ],
+    [
+      "8c8cd412-776e-4a2e-ada0-90e13af7bd37",
+      "sensor44"
+    ],
+    [
+      "0fecfe57-187c-4ff6-9833-1a26b6ee6c3b",
+      "sensor45"
+    ],
+    [
+      "48564bd1-bbd3-43b9-8d38-2289009bf22e",
+      "sensor46"
+    ],
+    [
+      "5e6c96e9-07cd-4633-8f33-1de7ab1f42c7",
+      "sensor47"
+    ],
+    [
+      "131ccc5a-4b0c-4f99-bd37-815a749555f7",
+      "sensor48"
+    ],
+    [
+      "876aa9a3-32f5-4b97-b961-ed30f11ed53e",
+      "sensor49"
+    ],
+    [
+      "a93c875f-467c-4ce2-b509-6982e8dd454e",
+      "sensor50"
+    ],
+    [
+      "5814f53d-6944-4620-b30e-2a41c5683d4b",
+      "sensor51"
+    ],
+    [
+      "0446b20f-1f86-4b19-93d5-ee86fff51ae0",
+      "sensor52"
+    ],
+    [
+      "57487e57-bdff-4ba9-aa0e-d325bdd63ffe",
+      "sensor53"
+    ],
+    [
+      "254c34f1-88f2-47f8-89aa-2e45ec01fea3",
+      "sensor54"
+    ],
+    [
+      "95af8ead-c5f1-4eef-8ec0-d95e9b4979df",
+      "sensor55"
+    ],
+    [
+      "5e8e9114-d33b-445b-b6b7-7c3f9c1e3a19",
+      "sensor56"
+    ],
+    [
+      "dc9440eb-296e-4a66-8098-4cfe77abdee6",
+      "sensor57"
+    ],
+    [
+      "065a422a-018f-4710-b375-0261bdd1b12b",
+      "sensor58"
+    ],
+    [
+      "bd68a982-5886-4372-96d9-824231f8d143",
+      "sensor59"
+    ],
+    [
+      "febc2fad-1524-473c-9cbf-bf068ea5119b",
+      "sensor60"
+    ],
+    [
+      "b228f05c-926f-4ca2-9e68-5ab7d55d91b8",
+      "sensor61"
+    ],
+    [
+      "44d90875-7122-47f9-b882-2f32ab13fdb1",
+      "sensor62"
+    ],
+    [
+      "ea6be189-81b5-4eab-a12d-acfcb254b536",
+      "sensor63"
+    ],
+    [
+      "692a1d34-8ead-40cf-a2a4-a338fd0f2929",
+      "sensor64"
+    ],
+    [
+      "6254a510-1f77-4b24-8616-204faa72f80f",
+      "sensor65"
+    ],
+    [
+      "4de3aab3-c113-42ae-bff4-8bc80b61559d",
+      "sensor66"
+    ],
+    [
+      "8886a84c-8d32-45f6-bbe2-c832dda0d0af",
+      "sensor67"
+    ],
+    [
+      "43b35073-d77f-4ec4-97f4-b1889fda007d",
+      "sensor68"
+    ],
+    [
+      "d9284119-197f-451b-8992-e7dda7a48bff",
+      "sensor69"
+    ],
+    [
+      "7f46b5f3-2f41-4bff-8c31-735d98ebd525",
+      "sensor70"
+    ],
+    [
+      "530c07a9-ecdb-4d0d-b003-8d6b89858fdd",
+      "sensor71"
+    ],
+    [
+      "19434496-782d-4fce-a84f-0be19cd79335",
+      "sensor72"
+    ],
+    [
+      "2c348d1b-f7d9-40ef-8291-17d1d874eb21",
+      "sensor73"
+    ],
+    [
+      "5f31686d-5fa2-401d-bf0b-23157c4986c9",
+      "sensor74"
+    ],
+    [
+      "553d2e6e-d501-41f4-919d-9d5b7b63f460",
+      "sensor75"
+    ],
+    [
+      "9919c8a8-6545-4376-9d8f-8663a726aa4f",
+      "sensor76"
+    ],
+    [
+      "10e0352f-4f26-40f7-bc9c-c1540884a21b",
+      "sensor77"
+    ],
+    [
+      "b1f9cb79-841a-4669-ac26-8edf23e68afd",
+      "sensor78"
+    ],
+    [
+      "c69df878-29e2-45de-98ec-a572571620c0",
+      "sensor79"
+    ],
+    [
+      "62007e89-6902-4fe2-a7d4-ca6e5260cd48",
+      "sensor80"
+    ],
+    [
+      "91d3345e-75a7-42ab-82e3-3cd476d7fa85",
+      "sensor81"
     ]
   ],
   "text_variables": {}
