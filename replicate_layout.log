@@ -1,0 +1,831 @@
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, May 18 2023, 07:48:16) [MSC v.1936 64 bit (AMD64)]'
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.6
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001EBCA3FB280>
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with SW1 as a reference
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'SW1'
+Located on: ['multiplexers', 'keys', 'sensor0']
+With filenames: ['multiplexers.kicad_sch', 'keys.kicad_sch', 'sensor.kicad_sch']
+With sheet_id:['multiplexers', 'keys', 'sensor0']
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('SW78', ['multiplexers', 'keys', 'sensor77']), ('SW74', ['multiplexers', 'keys', 'sensor73']), ('SW73', ['multiplexers', 'keys', 'sensor72']), ('SW71', ['multiplexers', 'keys', 'sensor70']), ('SW43', ['multiplexers', 'keys', 'sensor42']), ('SW30', ['multiplexers', 'keys', 'sensor29']), ('SW81', ['multiplexers', 'keys', 'sensor80']), ('SW80', ['multiplexers', 'keys', 'sensor79']), ('SW79', ['multiplexers', 'keys', 'sensor78']), ('SW77', ['multiplexers', 'keys', 'sensor76']), ('SW76', ['multiplexers', 'keys', 'sensor75']), ('SW75', ['multiplexers', 'keys', 'sensor74']), ('SW72', ['multiplexers', 'keys', 'sensor71']), ('SW70', ['multiplexers', 'keys', 'sensor69']), ('SW69', ['multiplexers', 'keys', 'sensor68']), ('SW68', ['multiplexers', 'keys', 'sensor67']), ('SW67', ['multiplexers', 'keys', 'sensor66']), ('SW66', ['multiplexers', 'keys', 'sensor65']), ('SW65', ['multiplexers', 'keys', 'sensor64']), ('SW64', ['multiplexers', 'keys', 'sensor63']), ('SW63', ['multiplexers', 'keys', 'sensor62']), ('SW62', ['multiplexers', 'keys', 'sensor61']), ('SW61', ['multiplexers', 'keys', 'sensor60']), ('SW60', ['multiplexers', 'keys', 'sensor59']), ('SW59', ['multiplexers', 'keys', 'sensor58']), ('SW58', ['multiplexers', 'keys', 'sensor57']), ('SW57', ['multiplexers', 'keys', 'sensor56']), ('SW56', ['multiplexers', 'keys', 'sensor55']), ('SW55', ['multiplexers', 'keys', 'sensor54']), ('SW54', ['multiplexers', 'keys', 'sensor53']), ('SW53', ['multiplexers', 'keys', 'sensor52']), ('SW52', ['multiplexers', 'keys', 'sensor51']), ('SW51', ['multiplexers', 'keys', 'sensor50']), ('SW50', ['multiplexers', 'keys', 'sensor49']), ('SW49', ['multiplexers', 'keys', 'sensor48']), ('SW48', ['multiplexers', 'keys', 'sensor47']), ('SW47', ['multiplexers', 'keys', 'sensor46']), ('SW46', ['multiplexers', 'keys', 'sensor45']), ('SW45', ['multiplexers', 'keys', 'sensor44']), ('SW44', ['multiplexers', 'keys', 'sensor43']), ('SW42', ['multiplexers', 'keys', 'sensor41']), ('SW41', ['multiplexers', 'keys', 'sensor40']), ('SW40', ['multiplexers', 'keys', 'sensor39']), ('SW39', ['multiplexers', 'keys', 'sensor38']), ('SW38', ['multiplexers', 'keys', 'sensor37']), ('SW37', ['multiplexers', 'keys', 'sensor36']), ('SW36', ['multiplexers', 'keys', 'sensor35']), ('SW35', ['multiplexers', 'keys', 'sensor34']), ('SW34', ['multiplexers', 'keys', 'sensor33']), ('SW33', ['multiplexers', 'keys', 'sensor32']), ('SW32', ['multiplexers', 'keys', 'sensor31']), ('SW31', ['multiplexers', 'keys', 'sensor30']), ('SW29', ['multiplexers', 'keys', 'sensor28']), ('SW28', ['multiplexers', 'keys', 'sensor27']), ('SW27', ['multiplexers', 'keys', 'sensor26']), ('SW26', ['multiplexers', 'keys', 'sensor25']), ('SW25', ['multiplexers', 'keys', 'sensor24']), ('SW24', ['multiplexers', 'keys', 'sensor23']), ('SW23', ['multiplexers', 'keys', 'sensor22']), ('SW22', ['multiplexers', 'keys', 'sensor21']), ('SW21', ['multiplexers', 'keys', 'sensor20']), ('SW20', ['multiplexers', 'keys', 'sensor19']), ('SW19', ['multiplexers', 'keys', 'sensor18']), ('SW18', ['multiplexers', 'keys', 'sensor17']), ('SW17', ['multiplexers', 'keys', 'sensor16']), ('SW16', ['multiplexers', 'keys', 'sensor15']), ('SW15', ['multiplexers', 'keys', 'sensor14']), ('SW14', ['multiplexers', 'keys', 'sensor13']), ('SW13', ['multiplexers', 'keys', 'sensor12']), ('SW12', ['multiplexers', 'keys', 'sensor11']), ('SW11', ['multiplexers', 'keys', 'sensor10']), ('SW10', ['multiplexers', 'keys', 'sensor9']), ('SW9', ['multiplexers', 'keys', 'sensor8']), ('SW8', ['multiplexers', 'keys', 'sensor7']), ('SW7', ['multiplexers', 'keys', 'sensor6']), ('SW6', ['multiplexers', 'keys', 'sensor5']), ('SW5', ['multiplexers', 'keys', 'sensor4']), ('SW4', ['multiplexers', 'keys', 'sensor3']), ('SW3', ['multiplexers', 'keys', 'sensor2']), ('SW2', ['multiplexers', 'keys', 'sensor1']), ('SW1', ['multiplexers', 'keys', 'sensor0'])]
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'sensor0', file:'sensor.kicad_sch'
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['multiplexers', 'keys', 'sensor1'], ['multiplexers', 'keys', 'sensor10'], ['multiplexers', 'keys', 'sensor11'], ['multiplexers', 'keys', 'sensor12'], ['multiplexers', 'keys', 'sensor13'], ['multiplexers', 'keys', 'sensor14'], ['multiplexers', 'keys', 'sensor15'], ['multiplexers', 'keys', 'sensor16'], ['multiplexers', 'keys', 'sensor17'], ['multiplexers', 'keys', 'sensor18'], ['multiplexers', 'keys', 'sensor19'], ['multiplexers', 'keys', 'sensor2'], ['multiplexers', 'keys', 'sensor20'], ['multiplexers', 'keys', 'sensor21'], ['multiplexers', 'keys', 'sensor22'], ['multiplexers', 'keys', 'sensor23'], ['multiplexers', 'keys', 'sensor24'], ['multiplexers', 'keys', 'sensor25'], ['multiplexers', 'keys', 'sensor26'], ['multiplexers', 'keys', 'sensor27'], ['multiplexers', 'keys', 'sensor28'], ['multiplexers', 'keys', 'sensor29'], ['multiplexers', 'keys', 'sensor3'], ['multiplexers', 'keys', 'sensor30'], ['multiplexers', 'keys', 'sensor31'], ['multiplexers', 'keys', 'sensor32'], ['multiplexers', 'keys', 'sensor33'], ['multiplexers', 'keys', 'sensor34'], ['multiplexers', 'keys', 'sensor35'], ['multiplexers', 'keys', 'sensor36'], ['multiplexers', 'keys', 'sensor37'], ['multiplexers', 'keys', 'sensor38'], ['multiplexers', 'keys', 'sensor39'], ['multiplexers', 'keys', 'sensor4'], ['multiplexers', 'keys', 'sensor40'], ['multiplexers', 'keys', 'sensor41'], ['multiplexers', 'keys', 'sensor42'], ['multiplexers', 'keys', 'sensor43'], ['multiplexers', 'keys', 'sensor44'], ['multiplexers', 'keys', 'sensor45'], ['multiplexers', 'keys', 'sensor46'], ['multiplexers', 'keys', 'sensor47'], ['multiplexers', 'keys', 'sensor48'], ['multiplexers', 'keys', 'sensor49'], ['multiplexers', 'keys', 'sensor5'], ['multiplexers', 'keys', 'sensor50'], ['multiplexers', 'keys', 'sensor51'], ['multiplexers', 'keys', 'sensor52'], ['multiplexers', 'keys', 'sensor53'], ['multiplexers', 'keys', 'sensor54'], ['multiplexers', 'keys', 'sensor55'], ['multiplexers', 'keys', 'sensor56'], ['multiplexers', 'keys', 'sensor57'], ['multiplexers', 'keys', 'sensor58'], ['multiplexers', 'keys', 'sensor59'], ['multiplexers', 'keys', 'sensor6'], ['multiplexers', 'keys', 'sensor60'], ['multiplexers', 'keys', 'sensor61'], ['multiplexers', 'keys', 'sensor62'], ['multiplexers', 'keys', 'sensor63'], ['multiplexers', 'keys', 'sensor64'], ['multiplexers', 'keys', 'sensor65'], ['multiplexers', 'keys', 'sensor66'], ['multiplexers', 'keys', 'sensor67'], ['multiplexers', 'keys', 'sensor68'], ['multiplexers', 'keys', 'sensor69'], ['multiplexers', 'keys', 'sensor7'], ['multiplexers', 'keys', 'sensor70'], ['multiplexers', 'keys', 'sensor71'], ['multiplexers', 'keys', 'sensor72'], ['multiplexers', 'keys', 'sensor73'], ['multiplexers', 'keys', 'sensor74'], ['multiplexers', 'keys', 'sensor75'], ['multiplexers', 'keys', 'sensor76'], ['multiplexers', 'keys', 'sensor77'], ['multiplexers', 'keys', 'sensor78'], ['multiplexers', 'keys', 'sensor79'], ['multiplexers', 'keys', 'sensor8'], ['multiplexers', 'keys', 'sensor80'], ['multiplexers', 'keys', 'sensor9']]
+02-27 19:11:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['multiplexers', 'keys', 'sensor0']
+02-27 19:11:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-27 19:11:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(2523, 80)
+02-27 19:11:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(2084, 80)
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'sensor0', file:'sensor.kicad_sch'
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['multiplexers', 'keys', 'sensor1'], ['multiplexers', 'keys', 'sensor10'], ['multiplexers', 'keys', 'sensor11'], ['multiplexers', 'keys', 'sensor12'], ['multiplexers', 'keys', 'sensor13'], ['multiplexers', 'keys', 'sensor14'], ['multiplexers', 'keys', 'sensor15'], ['multiplexers', 'keys', 'sensor16'], ['multiplexers', 'keys', 'sensor17'], ['multiplexers', 'keys', 'sensor18'], ['multiplexers', 'keys', 'sensor19'], ['multiplexers', 'keys', 'sensor2'], ['multiplexers', 'keys', 'sensor20'], ['multiplexers', 'keys', 'sensor21'], ['multiplexers', 'keys', 'sensor22'], ['multiplexers', 'keys', 'sensor23'], ['multiplexers', 'keys', 'sensor24'], ['multiplexers', 'keys', 'sensor25'], ['multiplexers', 'keys', 'sensor26'], ['multiplexers', 'keys', 'sensor27'], ['multiplexers', 'keys', 'sensor28'], ['multiplexers', 'keys', 'sensor29'], ['multiplexers', 'keys', 'sensor3'], ['multiplexers', 'keys', 'sensor30'], ['multiplexers', 'keys', 'sensor31'], ['multiplexers', 'keys', 'sensor32'], ['multiplexers', 'keys', 'sensor33'], ['multiplexers', 'keys', 'sensor34'], ['multiplexers', 'keys', 'sensor35'], ['multiplexers', 'keys', 'sensor36'], ['multiplexers', 'keys', 'sensor37'], ['multiplexers', 'keys', 'sensor38'], ['multiplexers', 'keys', 'sensor39'], ['multiplexers', 'keys', 'sensor4'], ['multiplexers', 'keys', 'sensor40'], ['multiplexers', 'keys', 'sensor41'], ['multiplexers', 'keys', 'sensor42'], ['multiplexers', 'keys', 'sensor43'], ['multiplexers', 'keys', 'sensor44'], ['multiplexers', 'keys', 'sensor45'], ['multiplexers', 'keys', 'sensor46'], ['multiplexers', 'keys', 'sensor47'], ['multiplexers', 'keys', 'sensor48'], ['multiplexers', 'keys', 'sensor49'], ['multiplexers', 'keys', 'sensor5'], ['multiplexers', 'keys', 'sensor50'], ['multiplexers', 'keys', 'sensor51'], ['multiplexers', 'keys', 'sensor52'], ['multiplexers', 'keys', 'sensor53'], ['multiplexers', 'keys', 'sensor54'], ['multiplexers', 'keys', 'sensor55'], ['multiplexers', 'keys', 'sensor56'], ['multiplexers', 'keys', 'sensor57'], ['multiplexers', 'keys', 'sensor58'], ['multiplexers', 'keys', 'sensor59'], ['multiplexers', 'keys', 'sensor6'], ['multiplexers', 'keys', 'sensor60'], ['multiplexers', 'keys', 'sensor61'], ['multiplexers', 'keys', 'sensor62'], ['multiplexers', 'keys', 'sensor63'], ['multiplexers', 'keys', 'sensor64'], ['multiplexers', 'keys', 'sensor65'], ['multiplexers', 'keys', 'sensor66'], ['multiplexers', 'keys', 'sensor67'], ['multiplexers', 'keys', 'sensor68'], ['multiplexers', 'keys', 'sensor69'], ['multiplexers', 'keys', 'sensor7'], ['multiplexers', 'keys', 'sensor70'], ['multiplexers', 'keys', 'sensor71'], ['multiplexers', 'keys', 'sensor72'], ['multiplexers', 'keys', 'sensor73'], ['multiplexers', 'keys', 'sensor74'], ['multiplexers', 'keys', 'sensor75'], ['multiplexers', 'keys', 'sensor76'], ['multiplexers', 'keys', 'sensor77'], ['multiplexers', 'keys', 'sensor78'], ['multiplexers', 'keys', 'sensor79'], ['multiplexers', 'keys', 'sensor8'], ['multiplexers', 'keys', 'sensor80'], ['multiplexers', 'keys', 'sensor9']]
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['multiplexers', 'keys', 'sensor1'], ['multiplexers', 'keys', 'sensor10'], ['multiplexers', 'keys', 'sensor11'], ['multiplexers', 'keys', 'sensor12'], ['multiplexers', 'keys', 'sensor13'], ['multiplexers', 'keys', 'sensor14'], ['multiplexers', 'keys', 'sensor15'], ['multiplexers', 'keys', 'sensor16'], ['multiplexers', 'keys', 'sensor17'], ['multiplexers', 'keys', 'sensor18'], ['multiplexers', 'keys', 'sensor19'], ['multiplexers', 'keys', 'sensor2'], ['multiplexers', 'keys', 'sensor20'], ['multiplexers', 'keys', 'sensor21'], ['multiplexers', 'keys', 'sensor22'], ['multiplexers', 'keys', 'sensor23'], ['multiplexers', 'keys', 'sensor24'], ['multiplexers', 'keys', 'sensor25'], ['multiplexers', 'keys', 'sensor26'], ['multiplexers', 'keys', 'sensor27'], ['multiplexers', 'keys', 'sensor28'], ['multiplexers', 'keys', 'sensor29'], ['multiplexers', 'keys', 'sensor3'], ['multiplexers', 'keys', 'sensor30'], ['multiplexers', 'keys', 'sensor31'], ['multiplexers', 'keys', 'sensor32'], ['multiplexers', 'keys', 'sensor33'], ['multiplexers', 'keys', 'sensor34'], ['multiplexers', 'keys', 'sensor35'], ['multiplexers', 'keys', 'sensor36'], ['multiplexers', 'keys', 'sensor37'], ['multiplexers', 'keys', 'sensor38'], ['multiplexers', 'keys', 'sensor39'], ['multiplexers', 'keys', 'sensor4'], ['multiplexers', 'keys', 'sensor40'], ['multiplexers', 'keys', 'sensor41'], ['multiplexers', 'keys', 'sensor42'], ['multiplexers', 'keys', 'sensor43'], ['multiplexers', 'keys', 'sensor44'], ['multiplexers', 'keys', 'sensor45'], ['multiplexers', 'keys', 'sensor46'], ['multiplexers', 'keys', 'sensor47'], ['multiplexers', 'keys', 'sensor48'], ['multiplexers', 'keys', 'sensor49'], ['multiplexers', 'keys', 'sensor5'], ['multiplexers', 'keys', 'sensor50'], ['multiplexers', 'keys', 'sensor51'], ['multiplexers', 'keys', 'sensor52'], ['multiplexers', 'keys', 'sensor53'], ['multiplexers', 'keys', 'sensor54'], ['multiplexers', 'keys', 'sensor55'], ['multiplexers', 'keys', 'sensor56'], ['multiplexers', 'keys', 'sensor57'], ['multiplexers', 'keys', 'sensor58'], ['multiplexers', 'keys', 'sensor59'], ['multiplexers', 'keys', 'sensor6'], ['multiplexers', 'keys', 'sensor60'], ['multiplexers', 'keys', 'sensor61'], ['multiplexers', 'keys', 'sensor62'], ['multiplexers', 'keys', 'sensor63'], ['multiplexers', 'keys', 'sensor64'], ['multiplexers', 'keys', 'sensor65'], ['multiplexers', 'keys', 'sensor66'], ['multiplexers', 'keys', 'sensor67'], ['multiplexers', 'keys', 'sensor68'], ['multiplexers', 'keys', 'sensor69'], ['multiplexers', 'keys', 'sensor7'], ['multiplexers', 'keys', 'sensor70'], ['multiplexers', 'keys', 'sensor71'], ['multiplexers', 'keys', 'sensor72'], ['multiplexers', 'keys', 'sensor73'], ['multiplexers', 'keys', 'sensor74'], ['multiplexers', 'keys', 'sensor75'], ['multiplexers', 'keys', 'sensor76'], ['multiplexers', 'keys', 'sensor77'], ['multiplexers', 'keys', 'sensor78'], ['multiplexers', 'keys', 'sensor79'], ['multiplexers', 'keys', 'sensor8'], ['multiplexers', 'keys', 'sensor80'], ['multiplexers', 'keys', 'sensor9']]
+on level: ['multiplexers', 'keys', 'sensor0']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
+02-27 19:11:26 root 332:updating GUI message: 'Preparing for replication'
+02-27 19:11:26 root 337:updating GUI with: 0
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+02-27 19:11:26 root 337:updating GUI with: 66
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 272:Removing tracks and zones, before footprint placement
+02-27 19:11:26 root 332:updating GUI message: 'Removing zones and tracks'
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:73191562, bottom:92361562, Left:161482058, Right:180652058
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:74083508, bottom:96797938, Left:357520691, Right:380235121
+02-27 19:11:26 root 337:updating GUI with: 2
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:73191562, bottom:92361562, Left:380557058, Right:399727058
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:73191562, bottom:92361562, Left:399607058, Right:418777058
+02-27 19:11:26 root 337:updating GUI with: 5
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:74144062, bottom:93314062, Left:451042058, Right:470212058
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:97956562, bottom:117126562, Left:147194558, Right:166364558
+02-27 19:11:26 root 337:updating GUI with: 7
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:97956562, bottom:117126562, Left:166244558, Right:185414558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:95099062, bottom:114269062, Left:185294558, Right:204464558
+02-27 19:11:26 root 337:updating GUI with: 10
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:98213369, bottom:120927799, Left:204458556, Right:227172986
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:102174087, bottom:124888517, Left:223092267, Right:245806697
+02-27 19:11:26 root 337:updating GUI with: 12
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:106134804, bottom:128849234, Left:241725979, Right:264440409
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:73191562, bottom:92361562, Left:180532058, Right:199702058
+02-27 19:11:26 root 337:updating GUI with: 15
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:110095522, bottom:132809952, Left:260359691, Right:283074121
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:111238159, bottom:133952589, Left:297253597, Right:319968027
+02-27 19:11:26 root 337:updating GUI with: 17
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:107277442, bottom:129991872, Left:315887309, Right:338601739
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:103316724, bottom:126031154, Left:334521021, Right:357235451
+02-27 19:11:26 root 337:updating GUI with: 20
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:99356006, bottom:122070436, Left:353154733, Right:375869163
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:95099062, bottom:114269062, Left:374842058, Right:394012058
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:97956562, bottom:117126562, Left:393892058, Right:413062058
+02-27 19:11:26 root 337:updating GUI with: 23
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:97956562, bottom:117126562, Left:422467058, Right:441637058
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:93194062, bottom:112364062, Left:455804558, Right:474974558
+02-27 19:11:26 root 337:updating GUI with: 26
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:147194558, Right:166364558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:72940870, bottom:95655300, Left:200092597, Right:222807027
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:171007058, Right:190177058
+02-27 19:11:26 root 337:updating GUI with: 30
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:114866722, bottom:137581152, Left:191180982, Right:213895412
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:118827440, bottom:141541870, Left:209814694, Right:232529124
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:122788157, bottom:145502587, Left:228448406, Right:251162836
+02-27 19:11:26 root 337:updating GUI with: 33
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:126748875, bottom:149463305, Left:247082117, Right:269796547
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:131852230, bottom:154566660, Left:291897459, Right:314611889
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:127891512, bottom:150605942, Left:310531171, Right:333245601
+02-27 19:11:26 root 337:updating GUI with: 37
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:123930795, bottom:146645225, Left:329164883, Right:351879313
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:119970077, bottom:142684507, Left:347798594, Right:370513024
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:116009359, bottom:138723789, Left:366432306, Right:389146736
+02-27 19:11:26 root 337:updating GUI with: 41
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:76901588, bottom:99616018, Left:218726309, Right:241440739
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:389129558, Right:408299558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:408179558, Right:427349558
+02-27 19:11:26 root 337:updating GUI with: 45
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:431992058, Right:451162058
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:112244062, bottom:131414062, Left:460567058, Right:479737058
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:140050808, Right:159220808
+02-27 19:11:26 root 337:updating GUI with: 48
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:171007058, Right:190177058
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:134490613, bottom:157205043, Left:191878692, Right:214593122
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:138451331, bottom:161165761, Left:210512404, Right:233226834
+02-27 19:11:26 root 337:updating GUI with: 52
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:142412049, bottom:165126479, Left:229146116, Right:251860546
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:146372766, bottom:169087196, Left:247779828, Right:270494258
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:81852485, bottom:104566915, Left:242018448, Right:264732878
+02-27 19:11:26 root 337:updating GUI with: 56
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:149495762, bottom:172210192, Left:300516605, Right:323231035
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:145535045, bottom:168249475, Left:319150316, Right:341864746
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:141574327, bottom:164288757, Left:337784028, Right:360498458
+02-27 19:11:26 root 337:updating GUI with: 60
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:137613609, bottom:160328039, Left:356417740, Right:379132170
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:379604558, Right:398774558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:398654558, Right:417824558
+02-27 19:11:26 root 337:updating GUI with: 63
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:429610808, Right:448780808
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:131294062, bottom:150464062, Left:465329558, Right:484499558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155106562, bottom:174276562, Left:144813308, Right:163983308
+02-27 19:11:26 root 337:updating GUI with: 67
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155106562, bottom:174276562, Left:175769558, Right:194939558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:85813203, bottom:108527633, Left:260652160, Right:283366590
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155104684, bottom:177819114, Left:197234830, Right:219949260
+02-27 19:11:26 root 337:updating GUI with: 71
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:159065402, bottom:181779832, Left:215868542, Right:238582972
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:163026119, bottom:185740549, Left:234502254, Right:257216684
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:166986837, bottom:189701267, Left:253135966, Right:275850396
+02-27 19:11:26 root 337:updating GUI with: 75
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:171100012, bottom:193814442, Left:290502038, Right:313216468
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:167139295, bottom:189853725, Left:309135750, Right:331850180
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:163178577, bottom:185893007, Left:327769462, Right:350483892
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:159217859, bottom:181932289, Left:346403174, Right:369117604
+02-27 19:11:26 root 337:updating GUI with: 80
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155257142, bottom:177971572, Left:365036886, Right:387751316
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155106562, bottom:174276562, Left:389129558, Right:408299558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:86955840, bottom:109670270, Left:296961128, Right:319675558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155106562, bottom:174276562, Left:415323308, Right:434493308
+02-27 19:11:26 root 337:updating GUI with: 85
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:159869062, bottom:179039062, Left:446279558, Right:465449558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:174156562, bottom:193326562, Left:137669558, Right:156839558
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:174728575, bottom:197443005, Left:197932541, Right:220646971
+02-27 19:11:26 root 337:updating GUI with: 88
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:181659831, bottom:204374261, Left:230541536, Right:253255966
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:187600908, bottom:210315338, Left:258492104, Right:281206534
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:184287737, bottom:207002167, Left:320084110, Right:342798540
+02-27 19:11:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:175871212, bottom:198585642, Left:359680747, Right:382395177
+02-27 19:11:26 root 337:updating GUI with: 93
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:178919062, bottom:198089062, Left:427229558, Right:446399558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:178919062, bottom:198089062, Left:446279558, Right:465449558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:82995122, bottom:105709552, Left:315594840, Right:338309270
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:178919062, bottom:198089062, Left:465329558, Right:484499558
+02-27 19:11:27 root 337:updating GUI with: 98
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:78044225, bottom:100758655, Left:338886979, Right:361601409
+02-27 19:11:27 root 332:updating GUI message: 'Replicating footprints'
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor1']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor10']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor11']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor12']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor13']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor14']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor15']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor16']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor17']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor18']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor19']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor2']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor20']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor21']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor22']
+02-27 19:11:27 root 337:updating GUI with: 18
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor23']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor24']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor25']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor26']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor27']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor28']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor29']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor3']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor30']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor31']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor32']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor33']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor34']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor35']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor36']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor37']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor38']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor39']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor4']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor40']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor41']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor42']
+02-27 19:11:27 root 337:updating GUI with: 46
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor43']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor44']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor45']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor46']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor47']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor48']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor49']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor5']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor50']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor51']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor52']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor53']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor54']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor55']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor56']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor57']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor58']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor59']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor6']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor60']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor61']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor62']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor63']
+02-27 19:11:27 root 337:updating GUI with: 74
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor64']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor65']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor66']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor67']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor68']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor69']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor7']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor70']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor71']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor72']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor73']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor74']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor75']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor76']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor77']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor78']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor79']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor8']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor80']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['multiplexers', 'keys', 'sensor9']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 280:Removing tracks and zones, after footprint placement
+02-27 19:11:27 root 332:updating GUI message: 'Removing zones and tracks'
+02-27 19:11:27 root 337:updating GUI with: 0
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:73191562, bottom:92361562, Left:161482058, Right:180652058
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:74083508, bottom:96797938, Left:357520691, Right:380235121
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:73191562, bottom:92361562, Left:380557058, Right:399727058
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:73191562, bottom:92361562, Left:399607058, Right:418777058
+02-27 19:11:27 root 337:updating GUI with: 5
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:74144062, bottom:93314062, Left:451042058, Right:470212058
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:97956562, bottom:117126562, Left:147194558, Right:166364558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:97956562, bottom:117126562, Left:166244558, Right:185414558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:95099062, bottom:114269062, Left:185294558, Right:204464558
+02-27 19:11:27 root 337:updating GUI with: 10
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:98213369, bottom:120927799, Left:204458556, Right:227172986
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:102174087, bottom:124888517, Left:223092267, Right:245806697
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:106134804, bottom:128849234, Left:241725979, Right:264440409
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:73191562, bottom:92361562, Left:180532058, Right:199702058
+02-27 19:11:27 root 337:updating GUI with: 15
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:110095522, bottom:132809952, Left:260359691, Right:283074121
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:111238159, bottom:133952589, Left:297253597, Right:319968027
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:107277442, bottom:129991872, Left:315887309, Right:338601739
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:103316724, bottom:126031154, Left:334521021, Right:357235451
+02-27 19:11:27 root 337:updating GUI with: 20
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:99356006, bottom:122070436, Left:353154733, Right:375869163
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:95099062, bottom:114269062, Left:374842058, Right:394012058
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:97956562, bottom:117126562, Left:393892058, Right:413062058
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:97956562, bottom:117126562, Left:422467058, Right:441637058
+02-27 19:11:27 root 337:updating GUI with: 25
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:93194062, bottom:112364062, Left:455804558, Right:474974558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:147194558, Right:166364558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:72940870, bottom:95655300, Left:200092597, Right:222807027
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:171007058, Right:190177058
+02-27 19:11:27 root 337:updating GUI with: 30
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:114866722, bottom:137581152, Left:191180982, Right:213895412
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:118827440, bottom:141541870, Left:209814694, Right:232529124
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:122788157, bottom:145502587, Left:228448406, Right:251162836
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:126748875, bottom:149463305, Left:247082117, Right:269796547
+02-27 19:11:27 root 337:updating GUI with: 35
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:131852230, bottom:154566660, Left:291897459, Right:314611889
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:127891512, bottom:150605942, Left:310531171, Right:333245601
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:123930795, bottom:146645225, Left:329164883, Right:351879313
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:119970077, bottom:142684507, Left:347798594, Right:370513024
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:116009359, bottom:138723789, Left:366432306, Right:389146736
+02-27 19:11:27 root 337:updating GUI with: 41
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:76901588, bottom:99616018, Left:218726309, Right:241440739
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:389129558, Right:408299558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:408179558, Right:427349558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:117006562, bottom:136176562, Left:431992058, Right:451162058
+02-27 19:11:27 root 337:updating GUI with: 46
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:112244062, bottom:131414062, Left:460567058, Right:479737058
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:140050808, Right:159220808
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:171007058, Right:190177058
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:134490613, bottom:157205043, Left:191878692, Right:214593122
+02-27 19:11:27 root 337:updating GUI with: 51
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:138451331, bottom:161165761, Left:210512404, Right:233226834
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:142412049, bottom:165126479, Left:229146116, Right:251860546
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:146372766, bottom:169087196, Left:247779828, Right:270494258
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:81852485, bottom:104566915, Left:242018448, Right:264732878
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:149495762, bottom:172210192, Left:300516605, Right:323231035
+02-27 19:11:27 root 337:updating GUI with: 57
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:145535045, bottom:168249475, Left:319150316, Right:341864746
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:141574327, bottom:164288757, Left:337784028, Right:360498458
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:137613609, bottom:160328039, Left:356417740, Right:379132170
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:379604558, Right:398774558
+02-27 19:11:27 root 337:updating GUI with: 62
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:398654558, Right:417824558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:136056562, bottom:155226562, Left:429610808, Right:448780808
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:131294062, bottom:150464062, Left:465329558, Right:484499558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155106562, bottom:174276562, Left:144813308, Right:163983308
+02-27 19:11:27 root 337:updating GUI with: 67
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155106562, bottom:174276562, Left:175769558, Right:194939558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:85813203, bottom:108527633, Left:260652160, Right:283366590
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155104684, bottom:177819114, Left:197234830, Right:219949260
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:159065402, bottom:181779832, Left:215868542, Right:238582972
+02-27 19:11:27 root 337:updating GUI with: 72
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:163026119, bottom:185740549, Left:234502254, Right:257216684
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:166986837, bottom:189701267, Left:253135966, Right:275850396
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:171100012, bottom:193814442, Left:290502038, Right:313216468
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:167139295, bottom:189853725, Left:309135750, Right:331850180
+02-27 19:11:27 root 337:updating GUI with: 77
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:163178577, bottom:185893007, Left:327769462, Right:350483892
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:159217859, bottom:181932289, Left:346403174, Right:369117604
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155257142, bottom:177971572, Left:365036886, Right:387751316
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155106562, bottom:174276562, Left:389129558, Right:408299558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:86955840, bottom:109670270, Left:296961128, Right:319675558
+02-27 19:11:27 root 337:updating GUI with: 83
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:155106562, bottom:174276562, Left:415323308, Right:434493308
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:159869062, bottom:179039062, Left:446279558, Right:465449558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:174156562, bottom:193326562, Left:137669558, Right:156839558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:174728575, bottom:197443005, Left:197932541, Right:220646971
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:181659831, bottom:204374261, Left:230541536, Right:253255966
+02-27 19:11:27 root 337:updating GUI with: 90
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:187600908, bottom:210315338, Left:258492104, Right:281206534
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:184287737, bottom:207002167, Left:320084110, Right:342798540
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:175871212, bottom:198585642, Left:359680747, Right:382395177
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:178919062, bottom:198089062, Left:427229558, Right:446399558
+02-27 19:11:27 root 337:updating GUI with: 95
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:178919062, bottom:198089062, Left:446279558, Right:465449558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:82995122, bottom:105709552, Left:315594840, Right:338309270
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:178919062, bottom:198089062, Left:465329558, Right:484499558
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1245:Remove bounding box top:78044225, bottom:100758655, Left:338886979, Right:361601409
+02-27 19:11:27 root 332:updating GUI message: 'Replicating tracks'
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor1']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor1'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_1'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW2-VOUT)')]
+02-27 19:11:27 root 337:updating GUI with: 0
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor10']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor10'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW11-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_10')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor11']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor11'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_11'), ('Net-(SW1-VOUT)', 'Net-(SW12-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor12']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor12'] :[('Net-(SW1-VOUT)', 'Net-(SW13-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_12'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor13']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor13'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_13'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW14-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor14']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor14'] :[('Net-(SW1-VOUT)', 'Net-(SW15-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_0')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor15']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor15'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW16-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_1')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor16']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor16'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_2'), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW17-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor17']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor17'] :[('Net-(SW1-VOUT)', 'Net-(SW18-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_3')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor18']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor18'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_4'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW19-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor19']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor19'] :[('Net-(SW1-VOUT)', 'Net-(SW20-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_5')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor2']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor2'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW3-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_2')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor20']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor20'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_6'), ('Net-(SW1-VOUT)', 'Net-(SW21-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor21']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor21'] :[('Net-(SW1-VOUT)', 'Net-(SW22-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_7')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor22']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor22'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_8'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW23-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor23']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor23'] :[('Net-(SW1-VOUT)', 'Net-(SW24-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_9')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor24']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor24'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW25-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_10')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor25']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor25'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_11'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW26-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor26']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor26'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_12'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW27-VOUT)')]
+02-27 19:11:27 root 337:updating GUI with: 22
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor27']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor27'] :[('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_13'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW28-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor28']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor28'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_14'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW29-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor29']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor29'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW30-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_0')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor3']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor3'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_3'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW4-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor30']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor30'] :[('Net-(SW1-VOUT)', 'Net-(SW31-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_1')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor31']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor31'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_2'), ('Net-(SW1-VOUT)', 'Net-(SW32-VOUT)'), ('+3V3', '+3V3'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor32']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor32'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_3'), ('Net-(SW1-VOUT)', 'Net-(SW33-VOUT)'), ('+3V3', '+3V3'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor33']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor33'] :[('Net-(SW1-VOUT)', 'Net-(SW34-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_4'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor34']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor34'] :[('Net-(SW1-VOUT)', 'Net-(SW35-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_5')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor35']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor35'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW36-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_6')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor36']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor36'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW37-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_7')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor37']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor37'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_8'), ('Net-(SW1-VOUT)', 'Net-(SW38-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor38']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor38'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_9'), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW39-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor39']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor39'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_10'), ('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW40-VOUT)'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor4']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor4'] :[('Net-(SW1-VOUT)', 'Net-(SW5-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_4')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor40']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor40'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW41-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_11')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor41']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor41'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_12'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW42-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor42']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor42'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW43-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_13')]
+02-27 19:11:27 root 337:updating GUI with: 46
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor43']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor43'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW44-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_14')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor44']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor44'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_0'), ('Net-(SW1-VOUT)', 'Net-(SW45-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor45']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor45'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW46-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_1')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor46']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor46'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_2'), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW47-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor47']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor47'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_3'), ('Net-(SW1-VOUT)', 'Net-(SW48-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor48']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor48'] :[('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_4'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW49-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor49']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor49'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW50-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_5')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor5']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor5'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_5'), ('Net-(SW1-VOUT)', 'Net-(SW6-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor50']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor50'] :[('Net-(SW1-VOUT)', 'Net-(SW51-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_6'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor51']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor51'] :[('Net-(SW1-VOUT)', 'Net-(SW52-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_7'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor52']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor52'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW53-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_8')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor53']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor53'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_9'), ('Net-(SW1-VOUT)', 'Net-(SW54-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor54']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor54'] :[('', ''), ('Net-(SW1-VOUT)', 'Net-(SW55-VOUT)'), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_10')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor55']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor55'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW56-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_11')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor56']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor56'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_12'), ('Net-(SW1-VOUT)', 'Net-(SW57-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor57']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor57'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_13'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW58-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor58']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor58'] :[('Net-(SW1-VOUT)', 'Net-(SW59-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_0'), ('GND', 'GND')]
+02-27 19:11:27 root 337:updating GUI with: 66
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor59']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor59'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW60-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_1')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor6']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor6'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW7-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_6')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor60']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor60'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_2'), ('Net-(SW1-VOUT)', 'Net-(SW61-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor61']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor61'] :[('Net-(SW1-VOUT)', 'Net-(SW62-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_3')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor62']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor62'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_4'), ('Net-(SW1-VOUT)', 'Net-(SW63-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor63']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor63'] :[('Net-(SW1-VOUT)', 'Net-(SW64-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_5')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor64']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor64'] :[('Net-(SW1-VOUT)', 'Net-(SW65-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_6')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor65']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor65'] :[('Net-(SW1-VOUT)', 'Net-(SW66-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_7')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor66']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor66'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW67-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_8')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor67']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor67'] :[('Net-(SW1-VOUT)', 'Net-(SW68-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_9')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor68']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor68'] :[('Net-(SW1-VOUT)', 'Net-(SW69-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_10')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor69']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor69'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW70-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_11')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor7']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor7'] :[('Net-(SW1-VOUT)', 'Net-(SW8-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_7')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor70']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor70'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW71-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_12')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor71']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor71'] :[('Net-(SW1-VOUT)', 'Net-(SW72-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_13')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor72']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor72'] :[('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_0'), ('Net-(SW1-VOUT)', 'Net-(SW73-VOUT)'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor73']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor73'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW74-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_1'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor74']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor74'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_2'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW75-VOUT)')]
+02-27 19:11:27 root 337:updating GUI with: 88
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor75']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor75'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_3'), ('Net-(SW1-VOUT)', 'Net-(SW76-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor76']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor76'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_4'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW77-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor77']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor77'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_5'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW78-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor78']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor78'] :[('Net-(SW1-VOUT)', 'Net-(SW79-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_6')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor79']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor79'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_7'), ('Net-(SW1-VOUT)', 'Net-(SW80-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor8']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor8'] :[('Net-(SW1-VOUT)', 'Net-(SW9-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_8')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor80']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor80'] :[('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_8'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW81-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['multiplexers', 'keys', 'sensor9']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor9'] :[('Net-(SW1-VOUT)', 'Net-(SW10-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_9'), ('GND', 'GND')]
+02-27 19:11:27 root 332:updating GUI message: 'Replicating zones'
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor1']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor1'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_1'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW2-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor10']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor10'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW11-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_10')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor11']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor11'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_11'), ('Net-(SW1-VOUT)', 'Net-(SW12-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor12']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor12'] :[('Net-(SW1-VOUT)', 'Net-(SW13-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_12'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor13']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor13'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_13'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW14-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor14']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor14'] :[('Net-(SW1-VOUT)', 'Net-(SW15-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_0')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor15']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor15'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW16-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_1')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor16']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor16'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_2'), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW17-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor17']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor17'] :[('Net-(SW1-VOUT)', 'Net-(SW18-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_3')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor18']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor18'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_4'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW19-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor19']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor19'] :[('Net-(SW1-VOUT)', 'Net-(SW20-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_5')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor2']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor2'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW3-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_2')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor20']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor20'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_6'), ('Net-(SW1-VOUT)', 'Net-(SW21-VOUT)')]
+02-27 19:11:27 root 337:updating GUI with: 16
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor21']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor21'] :[('Net-(SW1-VOUT)', 'Net-(SW22-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_7')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor22']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor22'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_8'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW23-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor23']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor23'] :[('Net-(SW1-VOUT)', 'Net-(SW24-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_9')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor24']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor24'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW25-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_10')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor25']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor25'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_11'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW26-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor26']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor26'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_12'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW27-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor27']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor27'] :[('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_13'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW28-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor28']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor28'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_1_14'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW29-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor29']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor29'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW30-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_0')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor3']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor3'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_3'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW4-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor30']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor30'] :[('Net-(SW1-VOUT)', 'Net-(SW31-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_1')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor31']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor31'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_2'), ('Net-(SW1-VOUT)', 'Net-(SW32-VOUT)'), ('+3V3', '+3V3'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor32']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor32'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_3'), ('Net-(SW1-VOUT)', 'Net-(SW33-VOUT)'), ('+3V3', '+3V3'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor33']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor33'] :[('Net-(SW1-VOUT)', 'Net-(SW34-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_4'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor34']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor34'] :[('Net-(SW1-VOUT)', 'Net-(SW35-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_5')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor35']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor35'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW36-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_6')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor36']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor36'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW37-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_7')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor37']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor37'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_8'), ('Net-(SW1-VOUT)', 'Net-(SW38-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor38']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor38'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_9'), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW39-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor39']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor39'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_10'), ('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW40-VOUT)'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor4']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor4'] :[('Net-(SW1-VOUT)', 'Net-(SW5-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_4')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor40']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor40'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW41-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_11')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor41']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor41'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_12'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW42-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor42']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor42'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW43-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_13')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor43']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor43'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW44-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_2_14')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor44']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor44'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_0'), ('Net-(SW1-VOUT)', 'Net-(SW45-VOUT)')]
+02-27 19:11:27 root 337:updating GUI with: 48
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor45']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor45'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW46-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_1')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor46']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor46'] :[('', ''), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_2'), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW47-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor47']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor47'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_3'), ('Net-(SW1-VOUT)', 'Net-(SW48-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor48']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor48'] :[('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_4'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW49-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor49']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor49'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW50-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_5')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor5']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor5'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_5'), ('Net-(SW1-VOUT)', 'Net-(SW6-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor50']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor50'] :[('Net-(SW1-VOUT)', 'Net-(SW51-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_6'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor51']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor51'] :[('Net-(SW1-VOUT)', 'Net-(SW52-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_7'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor52']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor52'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW53-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_8')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor53']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor53'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_9'), ('Net-(SW1-VOUT)', 'Net-(SW54-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor54']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor54'] :[('', ''), ('Net-(SW1-VOUT)', 'Net-(SW55-VOUT)'), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_10')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor55']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor55'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW56-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_11')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor56']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor56'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_12'), ('Net-(SW1-VOUT)', 'Net-(SW57-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor57']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor57'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_3_13'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW58-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor58']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor58'] :[('Net-(SW1-VOUT)', 'Net-(SW59-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_0'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor59']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor59'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW60-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_1')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor6']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor6'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW7-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_6')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor60']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor60'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_2'), ('Net-(SW1-VOUT)', 'Net-(SW61-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor61']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor61'] :[('Net-(SW1-VOUT)', 'Net-(SW62-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_3')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor62']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor62'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_4'), ('Net-(SW1-VOUT)', 'Net-(SW63-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor63']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor63'] :[('Net-(SW1-VOUT)', 'Net-(SW64-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_5')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor64']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor64'] :[('Net-(SW1-VOUT)', 'Net-(SW65-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_6')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor65']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor65'] :[('Net-(SW1-VOUT)', 'Net-(SW66-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_7')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor66']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor66'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW67-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_8')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor67']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor67'] :[('Net-(SW1-VOUT)', 'Net-(SW68-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_9')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor68']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor68'] :[('Net-(SW1-VOUT)', 'Net-(SW69-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_10')]
+02-27 19:11:27 root 337:updating GUI with: 81
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor69']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor69'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW70-VOUT)'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_11')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor7']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor7'] :[('Net-(SW1-VOUT)', 'Net-(SW8-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_7')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor70']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor70'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW71-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_12')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor71']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor71'] :[('Net-(SW1-VOUT)', 'Net-(SW72-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_4_13')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor72']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor72'] :[('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_0'), ('Net-(SW1-VOUT)', 'Net-(SW73-VOUT)'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor73']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor73'] :[('', ''), ('+3V3', '+3V3'), ('Net-(SW1-VOUT)', 'Net-(SW74-VOUT)'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_1'), ('GND', 'GND')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor74']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor74'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_2'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW75-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor75']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor75'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_3'), ('Net-(SW1-VOUT)', 'Net-(SW76-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor76']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor76'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_4'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW77-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor77']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor77'] :[('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_5'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW78-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor78']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor78'] :[('Net-(SW1-VOUT)', 'Net-(SW79-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_6')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor79']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor79'] :[('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_7'), ('Net-(SW1-VOUT)', 'Net-(SW80-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor8']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor8'] :[('Net-(SW1-VOUT)', 'Net-(SW9-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('GND', 'GND'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_8')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor80']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor80'] :[('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_5_8'), ('GND', 'GND'), ('Net-(SW1-VOUT)', 'Net-(SW81-VOUT)')]
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['multiplexers', 'keys', 'sensor9']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['multiplexers', 'keys', 'sensor9'] :[('Net-(SW1-VOUT)', 'Net-(SW10-VOUT)'), ('', ''), ('+3V3', '+3V3'), ('/multiplexers/keys/KEYS_0_0', '/multiplexers/keys/KEYS_0_9'), ('GND', 'GND')]
+02-27 19:11:27 root 332:updating GUI message: 'Replicating text'
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor1']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor10']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor11']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor12']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor13']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor14']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor15']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor16']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor17']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor18']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor19']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor2']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor20']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor21']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor22']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor23']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor24']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor25']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor26']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor27']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor28']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor29']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor3']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor30']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor31']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor32']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor33']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor34']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor35']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor36']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor37']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor38']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor39']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor4']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor40']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor41']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor42']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor43']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor44']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor45']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor46']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor47']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor48']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor49']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor5']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor50']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor51']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor52']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor53']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor54']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor55']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor56']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor57']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor58']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor59']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor6']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor60']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor61']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor62']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor63']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor64']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor65']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor66']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor67']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor68']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor69']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor7']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor70']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor71']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor72']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor73']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor74']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor75']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor76']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor77']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor78']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor79']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor8']
+02-27 19:11:27 root 337:updating GUI with: 97
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor80']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['multiplexers', 'keys', 'sensor9']
+02-27 19:11:27 root 332:updating GUI message: 'Replicating drawings'
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor1']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor10']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor11']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor12']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor13']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor14']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor15']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor16']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor17']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor18']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor19']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor2']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor20']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor21']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor22']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor23']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor24']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor25']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor26']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor27']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor28']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor29']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor3']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor30']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor31']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor32']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor33']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor34']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor35']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor36']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor37']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor38']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor39']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor4']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor40']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor41']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor42']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor43']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor44']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor45']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor46']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor47']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor48']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor49']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor5']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor50']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor51']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor52']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor53']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor54']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor55']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor56']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor57']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor58']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor59']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor6']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor60']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor61']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor62']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor63']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor64']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor65']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor66']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor67']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor68']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor69']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor7']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor70']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor71']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor72']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor73']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor74']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor75']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor76']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor77']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor78']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor79']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor8']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor80']
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['multiplexers', 'keys', 'sensor9']
+02-27 19:11:27 root 332:updating GUI message: 'Removing duplicates'
+02-27 19:11:27 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
