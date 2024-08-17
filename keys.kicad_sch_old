@@ -1,0 +1,9152 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f75a5f3b-145e-4eaf-804f-2a82c74d908b")
+	(paper "A3")
+	(lib_symbols
+		(symbol "PCM_marbastlib-mx:MX_stab"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_stab"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cherry MX-style stabilizer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cherry mx stabilizer stab"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_stab_0_1"
+				(rectangle
+					(start -5.08 -1.524)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.826 2.794)
+					(end -2.794 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -2.286)
+					(end -3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 -1.778)
+					(end 4.064 -2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.064 1.27)
+					(end -3.556 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.524)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 2.794)
+					(end 4.826 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 1.27)
+					(end 4.064 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 -2.286)
+					(end 3.556 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(bus_entry
+		(at 220.98 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0124490c-9653-42bc-aca9-5b499b814071")
+	)
+	(bus_entry
+		(at 314.96 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fa60c1-7eb0-45a2-b030-70bffc9468d7")
+	)
+	(bus_entry
+		(at 238.76 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058ed41e-9fc8-4ce8-899b-d58b3b0619dd")
+	)
+	(bus_entry
+		(at 240.03 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060756ce-ce87-4cbf-953d-0480e7afab26")
+	)
+	(bus_entry
+		(at 355.6 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b9eb29-9363-4c33-955d-4c4dff232f70")
+	)
+	(bus_entry
+		(at 114.3 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af0182a-c03d-4655-a75a-3cccb0547374")
+	)
+	(bus_entry
+		(at 222.25 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be68d9c-700f-4fce-a194-b067f1c89a75")
+	)
+	(bus_entry
+		(at 110.49 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109f80f4-32e5-4c06-a41e-24118b975939")
+	)
+	(bus_entry
+		(at 60.96 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13004543-98ff-4a0e-8fcf-f0fa82ad6e66")
+	)
+	(bus_entry
+		(at 106.68 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1369faae-ac83-4191-b695-7040e798b06e")
+	)
+	(bus_entry
+		(at 92.71 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206e9e33-d26c-42a1-8a7c-49291b6eecd7")
+	)
+	(bus_entry
+		(at 142.24 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2908d629-4ad9-4efc-b278-7a8450835f99")
+	)
+	(bus_entry
+		(at 78.74 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b1476b-12cc-45d5-88f2-ef17525b6882")
+	)
+	(bus_entry
+		(at 149.86 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efa67db-4f56-4f18-9a8b-01d0a23af00c")
+	)
+	(bus_entry
+		(at 101.6 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332aa057-ec97-4699-85e1-6a983edead29")
+	)
+	(bus_entry
+		(at 137.16 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341c535e-1c0b-4cda-8c2b-ffe83afec11b")
+	)
+	(bus_entry
+		(at 292.1 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3555b9fe-e617-4c58-871c-07c1acb74e21")
+	)
+	(bus_entry
+		(at 369.57 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6881a4-630c-4085-a4e6-83a614a547d0")
+	)
+	(bus_entry
+		(at 373.38 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ced44b8-ad05-4e9e-bf86-4845411e36ca")
+	)
+	(bus_entry
+		(at 275.59 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2a973a-56e1-42c6-bc49-544dee7f6047")
+	)
+	(bus_entry
+		(at 171.45 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6ccd98-f4fe-4ffd-bd87-29dd8c3606a5")
+	)
+	(bus_entry
+		(at 363.22 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432acf86-7f64-4b09-93ee-a3772f2a51bb")
+	)
+	(bus_entry
+		(at 309.88 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4768589a-1908-485c-a7c1-aaf3ebd437f7")
+	)
+	(bus_entry
+		(at 337.82 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ec9ae4-c7f7-4475-8b75-3ed406388703")
+	)
+	(bus_entry
+		(at 134.62 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515c9262-b4ad-472c-85cb-47a3e2152e84")
+	)
+	(bus_entry
+		(at 146.05 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52846f5b-d342-443e-bacb-fa4bc46b35cd")
+	)
+	(bus_entry
+		(at 81.28 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587bece9-207c-4678-b1c8-264667324e97")
+	)
+	(bus_entry
+		(at 256.54 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58eaa62c-573e-4ef0-94a5-3b43746859e6")
+	)
+	(bus_entry
+		(at 88.9 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fd8464-455d-4b61-a06b-27bd7af4f001")
+	)
+	(bus_entry
+		(at 160.02 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6c4a5d-c3a0-4bcf-ab15-2c0afaee76f8")
+	)
+	(bus_entry
+		(at 152.4 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f488d9-7493-46d8-b8a2-885756624c3b")
+	)
+	(bus_entry
+		(at 284.48 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d41f9f3-4d24-40a3-bd55-65c15e63a1bf")
+	)
+	(bus_entry
+		(at 81.28 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f37b23f-fd13-4fbb-a770-ccf84ea6a9ae")
+	)
+	(bus_entry
+		(at 124.46 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7048cb19-e3c8-46ca-a314-12398eaa3796")
+	)
+	(bus_entry
+		(at 128.27 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777ad33b-0ff1-4610-a898-0f60feb8be33")
+	)
+	(bus_entry
+		(at 153.67 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b26db72-5ebd-4c40-8d93-19ef043b0215")
+	)
+	(bus_entry
+		(at 355.6 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1981eb-82c8-432f-a7a1-854565f5ed77")
+	)
+	(bus_entry
+		(at 132.08 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835e15e3-238b-4e80-a1da-ed1baa82fc23")
+	)
+	(bus_entry
+		(at 386.08 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86356685-f4f1-4bdc-94c7-bb02777348cf")
+	)
+	(bus_entry
+		(at 293.37 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86852638-9bcb-4408-b09a-fb5f25ede4a4")
+	)
+	(bus_entry
+		(at 377.19 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86886751-b605-4024-9bc3-1faeef59daa9")
+	)
+	(bus_entry
+		(at 71.12 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bf10ab-fbc0-4fca-86c9-cac07c9482e0")
+	)
+	(bus_entry
+		(at 266.7 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7b5c5d-376e-45b3-b9b3-12ff6605ac47")
+	)
+	(bus_entry
+		(at 259.08 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902c0c08-9442-4cd6-af75-6f8d2e027ebf")
+	)
+	(bus_entry
+		(at 327.66 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ee72cc-81fd-41db-a05f-5e714c40a45c")
+	)
+	(bus_entry
+		(at 257.81 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b8d3a6-30e5-4310-a634-dc667b9d894f")
+	)
+	(bus_entry
+		(at 241.3 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958332f2-1180-48d6-8881-335e7cd40df6")
+	)
+	(bus_entry
+		(at 373.38 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9856eafc-c85c-4802-bc07-4581ea6b574a")
+	)
+	(bus_entry
+		(at 320.04 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99510992-7632-45fa-8a69-9d4f9f2c35de")
+	)
+	(bus_entry
+		(at 261.62 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b30a66b-3182-488b-b709-81ef17b95ecd")
+	)
+	(bus_entry
+		(at 274.32 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdd90be-e02f-45f3-afce-aa3872c06e4e")
+	)
+	(bus_entry
+		(at 311.15 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52a07a0-d747-4185-9652-4394cc7c5d4e")
+	)
+	(bus_entry
+		(at 292.1 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6353818-22d4-4e81-9dbc-2a9bba47277d")
+	)
+	(bus_entry
+		(at 391.16 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdc144a-d008-4b7e-81c2-87aeea2e06ac")
+	)
+	(bus_entry
+		(at 181.61 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adccf266-f689-4c8d-b9b0-bcc5e314635a")
+	)
+	(bus_entry
+		(at 154.94 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ac2ab3-bf29-4e29-8715-1355ce1d4c2b")
+	)
+	(bus_entry
+		(at 119.38 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f2319c-0cd5-44fa-a796-961f94dad820")
+	)
+	(bus_entry
+		(at 167.64 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29e0b49-102c-452c-b7e9-43c21dee11ba")
+	)
+	(bus_entry
+		(at 345.44 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3145fad-59b0-4620-81fe-fdab2fdb3a48")
+	)
+	(bus_entry
+		(at 220.98 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8006f90-bb46-4818-b897-85b22a3741f8")
+	)
+	(bus_entry
+		(at 170.18 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb452059-25cb-4f31-8fc1-93a6eaa7bb96")
+	)
+	(bus_entry
+		(at 309.88 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c192b632-a9a5-47c8-b0a1-95abc23de15c")
+	)
+	(bus_entry
+		(at 66.04 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27f0f00-8a0e-4940-b06f-43c374ff326e")
+	)
+	(bus_entry
+		(at 332.74 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf46b4f-d856-41b6-8538-11e479dfbd90")
+	)
+	(bus_entry
+		(at 238.76 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd42dccf-0364-4466-8ce6-0edb49935710")
+	)
+	(bus_entry
+		(at 297.18 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0d1c11-d1e1-4e5d-b314-895b06b7eb0d")
+	)
+	(bus_entry
+		(at 368.3 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0df725a-864b-4ad6-9680-0c25d5b1e821")
+	)
+	(bus_entry
+		(at 189.23 173.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74f7748-84c5-48cf-849c-e2be61a06fa5")
+	)
+	(bus_entry
+		(at 350.52 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9aa9f16-65e9-4c1e-af9e-61ca7099860f")
+	)
+	(bus_entry
+		(at 116.84 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db66150f-422d-4df5-b368-bd63e8c014d2")
+	)
+	(bus_entry
+		(at 327.66 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e139e5a1-3066-4403-8f84-29da6bcdf7c5")
+	)
+	(bus_entry
+		(at 172.72 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1853c8c-ebd1-44c6-8c8e-d1007c013a02")
+	)
+	(bus_entry
+		(at 163.83 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19025e9-c5f3-43c6-b570-a31acc069457")
+	)
+	(bus_entry
+		(at 248.92 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c610b8-5598-46b3-94ef-ffa136b99279")
+	)
+	(bus_entry
+		(at 274.32 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7d795a-7efe-40a6-9074-96ac9b574f89")
+	)
+	(bus_entry
+		(at 99.06 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd01586-9fb6-4c6a-aa76-66d25b0974f9")
+	)
+	(bus_entry
+		(at 279.4 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef806757-8115-4681-96e1-1783c28d7a8e")
+	)
+	(bus_entry
+		(at 302.26 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0727e38-b4fc-41fc-8d7b-c54bd6163d49")
+	)
+	(bus_entry
+		(at 256.54 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13ddfa9-6d9d-4eae-acf8-886fbaeef7da")
+	)
+	(bus_entry
+		(at 83.82 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59fe667-27d4-4066-a715-523bf0782166")
+	)
+	(bus_entry
+		(at 96.52 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff59d48c-4a61-4222-a497-e45f7c315bfc")
+	)
+	(bus
+		(pts
+			(xy 327.66 54.61) (xy 369.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009005f6-d580-4a0f-b39c-0ae14b6ba398")
+	)
+	(wire
+		(pts
+			(xy 218.44 99.06) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010552ab-9377-4d39-8f25-627ec564160e")
+	)
+	(wire
+		(pts
+			(xy 360.68 27.94) (xy 360.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b03a9d-137c-4cf8-ba37-639fcd50aa1d")
+	)
+	(wire
+		(pts
+			(xy 186.69 176.53) (xy 186.69 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0228f83e-15a7-4880-b22d-5b92492435ce")
+	)
+	(wire
+		(pts
+			(xy 281.94 146.05) (xy 281.94 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049a8410-3cfa-47d7-a3b2-045b0cfc7fb6")
+	)
+	(wire
+		(pts
+			(xy 347.98 128.27) (xy 346.71 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0683b325-8896-46ec-b1ce-416f9ca1e544")
+	)
+	(bus
+		(pts
+			(xy 128.27 143.51) (xy 146.05 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cd497b-32c5-4d44-a89b-65b03d9f60b8")
+	)
+	(wire
+		(pts
+			(xy 246.38 157.48) (xy 245.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0807bd5a-56f9-47ce-a174-0b8bc64ceaa0")
+	)
+	(bus
+		(pts
+			(xy 96.52 25.4) (xy 114.3 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099cb1cf-ceaf-43c4-8f0b-d2937c0ad2bc")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad4b6ee-646b-44e9-a19c-93b4619a4b34")
+	)
+	(bus
+		(pts
+			(xy 377.19 85.09) (xy 383.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eec8e89-28bb-444a-b828-c45ed26ee20b")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 132.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef269cd-40bc-4237-9be5-8c63d2fe6077")
+	)
+	(bus
+		(pts
+			(xy 152.4 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10562d29-f601-469a-8eba-2e6a929d1e9d")
+	)
+	(wire
+		(pts
+			(xy 353.06 187.96) (xy 351.79 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108b4564-0a69-472e-a4ef-542d3c6ae763")
+	)
+	(bus
+		(pts
+			(xy 309.88 54.61) (xy 327.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138fef7c-4174-4996-aabb-a3cb6bb472d1")
+	)
+	(wire
+		(pts
+			(xy 186.69 187.96) (xy 185.42 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d3cb81-7049-4003-9add-bd74cd705a88")
+	)
+	(wire
+		(pts
+			(xy 219.71 39.37) (xy 218.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19def5a4-4459-4301-bf12-6076539f185e")
+	)
+	(bus
+		(pts
+			(xy 350.52 114.3) (xy 368.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9af92e-4e2c-42fa-8a72-c9cadc235904")
+	)
+	(bus
+		(pts
+			(xy 292.1 85.09) (xy 309.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6df416-9263-4a0b-8258-53a9bb5a92db")
+	)
+	(bus
+		(pts
+			(xy 257.81 25.4) (xy 275.59 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbe9442-a493-4d15-92a4-11c320e4a628")
+	)
+	(bus
+		(pts
+			(xy 153.67 173.99) (xy 171.45 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2a8733-cdee-4775-b2d2-15bad15e13dd")
+	)
+	(wire
+		(pts
+			(xy 116.84 57.15) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7c428e-7614-4466-b185-7fcdde334e1b")
+	)
+	(wire
+		(pts
+			(xy 129.54 39.37) (xy 128.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb43a85-45c4-42da-ade6-69fc18853aec")
+	)
+	(bus
+		(pts
+			(xy 297.18 114.3) (xy 314.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cab1b4-e721-47f1-9b37-260a133e220d")
+	)
+	(bus
+		(pts
+			(xy 274.32 85.09) (xy 292.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b9badd-e87f-4725-ac58-33066b74bc86")
+	)
+	(wire
+		(pts
+			(xy 167.64 116.84) (xy 167.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a49850-afd2-4fa0-80dd-2e22113bc5df")
+	)
+	(wire
+		(pts
+			(xy 312.42 128.27) (xy 311.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243c4969-ab6e-4dff-b66d-828ed93bb0de")
+	)
+	(wire
+		(pts
+			(xy 236.22 57.15) (xy 236.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2532c92d-a1a4-40c8-b1cd-df587715571e")
+	)
+	(bus
+		(pts
+			(xy 101.6 54.61) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2927f480-fc91-4268-9bb7-496ea7893e00")
+	)
+	(wire
+		(pts
+			(xy 90.17 157.48) (xy 88.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cc8e29-1a9d-44c2-b14e-1b28e9461e42")
+	)
+	(bus
+		(pts
+			(xy 292.1 54.61) (xy 309.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aafba2b-d176-4898-8c8b-ba3e119d033d")
+	)
+	(wire
+		(pts
+			(xy 254 68.58) (xy 252.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bab9f2b-dd02-41e6-ab77-748bc6df1cb3")
+	)
+	(wire
+		(pts
+			(xy 114.3 128.27) (xy 113.03 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4e082b-59ba-4179-a5c6-f80e554d692e")
+	)
+	(wire
+		(pts
+			(xy 370.84 176.53) (xy 370.84 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd584ae-7a30-48e2-a080-88754d0b3ad9")
+	)
+	(wire
+		(pts
+			(xy 308.61 27.94) (xy 308.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bed182-1857-42cb-8a1d-06f63ae8b2bb")
+	)
+	(wire
+		(pts
+			(xy 273.05 39.37) (xy 271.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3358cb94-f56a-4afc-80f3-1fb503d05a57")
+	)
+	(wire
+		(pts
+			(xy 360.68 39.37) (xy 359.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3460c7ca-e63c-4ee8-b682-3b1c5aea198a")
+	)
+	(bus
+		(pts
+			(xy 137.16 54.61) (xy 154.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353607cd-a422-4e9a-a51e-5bc681210ca4")
+	)
+	(bus
+		(pts
+			(xy 256.54 85.09) (xy 274.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c7a733-92e2-4e85-ab92-388c7a6db399")
+	)
+	(wire
+		(pts
+			(xy 374.65 99.06) (xy 373.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e41442-31fa-4e88-88a5-b6c4ab794a74")
+	)
+	(bus
+		(pts
+			(xy 189.23 173.99) (xy 241.3 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d0d85b-117a-4897-aebf-f73eff3ffd01")
+	)
+	(bus
+		(pts
+			(xy 311.15 25.4) (xy 363.22 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e34f33-2a16-4ea5-bcef-e140db98850d")
+	)
+	(wire
+		(pts
+			(xy 125.73 146.05) (xy 125.73 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39942d9d-330c-46c3-8692-7ed4406ce9f5")
+	)
+	(bus
+		(pts
+			(xy 171.45 173.99) (xy 189.23 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5a6a43-f396-4f57-9828-51e3de7a5ac3")
+	)
+	(wire
+		(pts
+			(xy 289.56 68.58) (xy 288.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd11712-82d6-4050-b1f4-26c35cdf28fb")
+	)
+	(wire
+		(pts
+			(xy 254 57.15) (xy 254 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf38de0-8b6a-42ce-b973-0a243c5fb32e")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccca107-3097-494c-afbe-5ebf1ea8d70d")
+	)
+	(bus
+		(pts
+			(xy 302.26 143.51) (xy 320.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d42f112-9611-4e72-a317-698c1b18cf99")
+	)
+	(wire
+		(pts
+			(xy 330.2 128.27) (xy 328.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db8ef6a-1630-4ff6-b2ef-3f49a77a193a")
+	)
+	(wire
+		(pts
+			(xy 218.44 87.63) (xy 218.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4017a696-8a44-4d96-bfd1-5f4904128435")
+	)
+	(wire
+		(pts
+			(xy 254 99.06) (xy 252.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404eb94a-0f69-45d9-844a-28a083328214")
+	)
+	(wire
+		(pts
+			(xy 388.62 187.96) (xy 387.35 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d12e44-8d59-4ae9-9f3b-d524ef2a8793")
+	)
+	(wire
+		(pts
+			(xy 374.65 87.63) (xy 374.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436cb894-b5a6-4d0d-b4fd-b378f4c99df7")
+	)
+	(wire
+		(pts
+			(xy 63.5 57.15) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a6eeac-8c8a-4ea3-9474-f7648dbd466f")
+	)
+	(wire
+		(pts
+			(xy 353.06 176.53) (xy 353.06 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478a221f-4281-496e-ba6f-0ebbeba18bd8")
+	)
+	(bus
+		(pts
+			(xy 314.96 114.3) (xy 332.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497c191d-a7f1-4751-82be-05f5fe879864")
+	)
+	(wire
+		(pts
+			(xy 76.2 27.94) (xy 76.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db3d10d-b1d8-4775-a520-9bfaebaa2444")
+	)
+	(bus
+		(pts
+			(xy 81.28 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd08acf-8963-4391-ac80-20226794e3d9")
+	)
+	(wire
+		(pts
+			(xy 161.29 146.05) (xy 161.29 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50487069-4890-451e-9b44-d75c1f868847")
+	)
+	(bus
+		(pts
+			(xy 181.61 143.51) (xy 248.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50eb341a-422d-4397-ac16-ff673d31fd76")
+	)
+	(wire
+		(pts
+			(xy 167.64 128.27) (xy 166.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f54210-547a-4669-ae10-7808e29b60aa")
+	)
+	(bus
+		(pts
+			(xy 78.74 25.4) (xy 96.52 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ff58c3-ed66-4d84-82fe-a1dba55d50f1")
+	)
+	(bus
+		(pts
+			(xy 116.84 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5452bd0c-3754-4015-abd7-59058de01f65")
+	)
+	(wire
+		(pts
+			(xy 179.07 157.48) (xy 177.8 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552d2b0f-e903-4eb6-8005-3a82adc9061e")
+	)
+	(wire
+		(pts
+			(xy 147.32 27.94) (xy 147.32 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569578eb-bef5-456e-bf8c-325b1f911c71")
+	)
+	(wire
+		(pts
+			(xy 276.86 128.27) (xy 275.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57aafaa0-ac53-4427-a8d7-44ea354bdc74")
+	)
+	(wire
+		(pts
+			(xy 152.4 57.15) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583a8a4f-c689-4a96-ae40-88192a47c230")
+	)
+	(bus
+		(pts
+			(xy 220.98 54.61) (xy 238.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59348f59-375b-4bfc-b746-dcb1b44ebd96")
+	)
+	(bus
+		(pts
+			(xy 279.4 114.3) (xy 297.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594728b6-3f7e-4668-a6e6-f1a19794f057")
+	)
+	(wire
+		(pts
+			(xy 93.98 27.94) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae23c6c-be05-4b99-a75d-733ed2e8956e")
+	)
+	(wire
+		(pts
+			(xy 264.16 157.48) (xy 262.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b62c2da-2401-45da-b153-50f046ac46d6")
+	)
+	(wire
+		(pts
+			(xy 111.76 27.94) (xy 111.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7bccae-6c2e-4b82-9341-ab2531618db0")
+	)
+	(wire
+		(pts
+			(xy 129.54 27.94) (xy 129.54 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4c4757-641f-4b23-838f-551818d968a1")
+	)
+	(wire
+		(pts
+			(xy 271.78 57.15) (xy 271.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60392fa4-a99e-4ca5-8a6a-990424c4c4a2")
+	)
+	(wire
+		(pts
+			(xy 276.86 116.84) (xy 276.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616acaef-7bd7-4591-ba74-9b5441a4c8af")
+	)
+	(wire
+		(pts
+			(xy 96.52 116.84) (xy 96.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6241a84d-3c92-4b36-b08c-a822ed703952")
+	)
+	(wire
+		(pts
+			(xy 367.03 57.15) (xy 367.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6346dd10-f4d7-4274-aaa5-9a645d53060e")
+	)
+	(bus
+		(pts
+			(xy 119.38 54.61) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ce9fe2-c113-4c8c-815d-cd0c8ce9feb1")
+	)
+	(bus
+		(pts
+			(xy 261.62 114.3) (xy 279.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63efc638-4160-4b7b-99d7-fc8089d58dca")
+	)
+	(wire
+		(pts
+			(xy 236.22 68.58) (xy 234.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f8638f-a431-444b-bbd8-89fdc894cd34")
+	)
+	(bus
+		(pts
+			(xy 88.9 85.09) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a53835d-7a78-416f-b5cc-e04df4b9cb77")
+	)
+	(wire
+		(pts
+			(xy 161.29 157.48) (xy 160.02 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac7ab0a-d74e-43c8-a94a-fc6a9767506b")
+	)
+	(wire
+		(pts
+			(xy 271.78 68.58) (xy 270.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf9c027-d72f-479c-aaa7-9c0514718c9b")
+	)
+	(wire
+		(pts
+			(xy 342.9 87.63) (xy 342.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2d6462-fac4-478e-bd8a-9f52c3326a8c")
+	)
+	(wire
+		(pts
+			(xy 353.06 146.05) (xy 353.06 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c94fabf-7c8f-4c26-ab6b-6b3db8b03120")
+	)
+	(wire
+		(pts
+			(xy 370.84 146.05) (xy 370.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbf40ee-f183-41e6-9285-85071f207d54")
+	)
+	(bus
+		(pts
+			(xy 146.05 143.51) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e09bdef-f58c-4538-949b-6753509e0441")
+	)
+	(wire
+		(pts
+			(xy 168.91 187.96) (xy 167.64 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e45ce50-155f-4f5f-bf7f-d788986b7b9f")
+	)
+	(bus
+		(pts
+			(xy 332.74 114.3) (xy 350.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7d57b2-1880-45ca-9b70-a4ca231b1ef2")
+	)
+	(bus
+		(pts
+			(xy 66.04 54.61) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fcc34c0-bb0e-47dd-970e-1f6a576374a7")
+	)
+	(wire
+		(pts
+			(xy 170.18 57.15) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c7b3e1-b66b-4453-9d82-a4868297d46a")
+	)
+	(wire
+		(pts
+			(xy 290.83 27.94) (xy 290.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712779c5-417d-4779-86f9-dfaa3aa824e0")
+	)
+	(wire
+		(pts
+			(xy 271.78 87.63) (xy 271.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a19100-e3c2-45e6-a72f-457b4e1afc57")
+	)
+	(wire
+		(pts
+			(xy 370.84 187.96) (xy 369.57 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dbad74-9225-4611-9585-b2f2ca010762")
+	)
+	(wire
+		(pts
+			(xy 78.74 176.53) (xy 78.74 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73348c5d-eb2d-4369-b72d-de0d53a4a54a")
+	)
+	(wire
+		(pts
+			(xy 218.44 68.58) (xy 217.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cec6ab-8bb1-4cfc-8973-07821ca50fd7")
+	)
+	(wire
+		(pts
+			(xy 125.73 157.48) (xy 124.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ed858c-1ec9-4556-8a56-09a33dfb7227")
+	)
+	(wire
+		(pts
+			(xy 256.54 187.96) (xy 255.27 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742002a4-6df3-47d0-8e87-c891d8c4baa4")
+	)
+	(wire
+		(pts
+			(xy 307.34 87.63) (xy 307.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75088f61-e588-40e3-b358-16118bf02417")
+	)
+	(wire
+		(pts
+			(xy 99.06 57.15) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754353f7-a268-487f-8023-2c274cbd1929")
+	)
+	(wire
+		(pts
+			(xy 68.58 99.06) (xy 67.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7579282e-24a6-4b20-a001-9ab5a20d498b")
+	)
+	(wire
+		(pts
+			(xy 335.28 146.05) (xy 335.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7712d85b-5364-4bff-b47e-5657a9a0e9b0")
+	)
+	(wire
+		(pts
+			(xy 121.92 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775e4932-21a0-4106-9209-3e3a39c8f79f")
+	)
+	(bus
+		(pts
+			(xy 220.98 85.09) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bbaf28-0ff9-421b-afe5-7e1bede66e26")
+	)
+	(wire
+		(pts
+			(xy 151.13 176.53) (xy 151.13 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4aa120-2af9-4248-b69d-681e9e83c412")
+	)
+	(wire
+		(pts
+			(xy 86.36 87.63) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a774040-86ca-4729-950c-b80b69ec9445")
+	)
+	(wire
+		(pts
+			(xy 388.62 176.53) (xy 388.62 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad67778-cf41-423e-b5a4-950398232c9c")
+	)
+	(wire
+		(pts
+			(xy 299.72 157.48) (xy 298.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b21e213-221e-493d-a264-f964d54a16e6")
+	)
+	(wire
+		(pts
+			(xy 254 87.63) (xy 254 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ceff745-89c4-4721-bb21-5ea35a5ab041")
+	)
+	(bus
+		(pts
+			(xy 167.64 25.4) (xy 222.25 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf9b8b5-03cc-43c2-945a-1e9d0dbdd23c")
+	)
+	(bus
+		(pts
+			(xy 172.72 54.61) (xy 220.98 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edd18e3-cd39-4c03-b22f-25743ed6a167")
+	)
+	(wire
+		(pts
+			(xy 165.1 39.37) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81936f86-aa8e-4a35-83b3-aadadcab8fd3")
+	)
+	(wire
+		(pts
+			(xy 294.64 116.84) (xy 294.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826f96ae-a2b9-470b-abbd-b023ad5d7eed")
+	)
+	(bus
+		(pts
+			(xy 284.48 143.51) (xy 302.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83941d37-266f-4f17-b390-90d21a657230")
+	)
+	(wire
+		(pts
+			(xy 335.28 157.48) (xy 334.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85531db1-b043-4749-b8d3-0b7787863538")
+	)
+	(wire
+		(pts
+			(xy 294.64 128.27) (xy 293.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8626cc9e-ae16-437c-b714-849ddd87303c")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867a96f3-1598-4640-a81c-34e4f62f5a48")
+	)
+	(bus
+		(pts
+			(xy 368.3 114.3) (xy 386.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868982a4-4531-426a-9beb-9ac1839b86f0")
+	)
+	(wire
+		(pts
+			(xy 147.32 39.37) (xy 146.05 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868b20bc-abb7-4bc7-8386-fedc8ce54e39")
+	)
+	(bus
+		(pts
+			(xy 256.54 54.61) (xy 274.32 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ac8a07-5146-4f18-948b-95eb6de9307e")
+	)
+	(wire
+		(pts
+			(xy 307.34 68.58) (xy 306.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8916e8db-1aa9-4863-b527-4de02be25f60")
+	)
+	(bus
+		(pts
+			(xy 240.03 25.4) (xy 257.81 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c49b1b-7e1f-4cad-abf3-9c45485df3ca")
+	)
+	(wire
+		(pts
+			(xy 325.12 99.06) (xy 323.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fa8767-18fa-45ab-9e11-a97ef88cd4bf")
+	)
+	(wire
+		(pts
+			(xy 325.12 68.58) (xy 323.85 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1ae48c-f5dd-41ad-b87f-0c77492f1142")
+	)
+	(bus
+		(pts
+			(xy 142.24 85.09) (xy 160.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad68042-53fa-4b31-9cd4-deff159062c1")
+	)
+	(bus
+		(pts
+			(xy 345.44 85.09) (xy 377.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7d1045-3b30-411f-9b46-5a1704328f13")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.94) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5fb163-a3b6-463d-8dfc-c9433a64b72b")
+	)
+	(bus
+		(pts
+			(xy 99.06 114.3) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4330d9-fe5b-4072-aa1a-d090c5f167d8")
+	)
+	(wire
+		(pts
+			(xy 312.42 116.84) (xy 312.42 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d253a7-a8c6-4181-8cff-181a67f638f7")
+	)
+	(wire
+		(pts
+			(xy 168.91 176.53) (xy 168.91 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ea4565-b6cf-44bb-9cf0-09c99720df5e")
+	)
+	(wire
+		(pts
+			(xy 121.92 87.63) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9222f660-917d-4bad-b285-0926c1891663")
+	)
+	(wire
+		(pts
+			(xy 255.27 39.37) (xy 254 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9226daca-8528-477a-a401-bb448d45f0cf")
+	)
+	(wire
+		(pts
+			(xy 78.74 187.96) (xy 77.47 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924499e1-4b54-4da7-99e1-9c7987489344")
+	)
+	(wire
+		(pts
+			(xy 149.86 128.27) (xy 148.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9406a10a-bb67-4563-a7bd-0b64f769b0ca")
+	)
+	(bus
+		(pts
+			(xy 320.04 143.51) (xy 337.82 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98666a47-7b94-4591-ba36-1a3ca5809a27")
+	)
+	(bus
+		(pts
+			(xy 355.6 173.99) (xy 373.38 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987c07a8-3d78-41dd-b689-3fcea8d867c1")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 165.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989a06de-0cce-437e-956d-f4a51b4b436b")
+	)
+	(wire
+		(pts
+			(xy 317.5 146.05) (xy 317.5 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997ba0e6-955e-4f62-a1af-b49ffac3d0a5")
+	)
+	(wire
+		(pts
+			(xy 111.76 39.37) (xy 110.49 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af74898-b1bf-434c-b6bd-58ad56e722d6")
+	)
+	(wire
+		(pts
+			(xy 365.76 128.27) (xy 364.49 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc9c3da-708b-43cb-b2a2-1f67314cba75")
+	)
+	(wire
+		(pts
+			(xy 383.54 128.27) (xy 382.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9c48a5-b8cb-4ccd-91a4-884cb7287f16")
+	)
+	(wire
+		(pts
+			(xy 246.38 146.05) (xy 246.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12e2da4-e49a-4ecf-82f4-984a7d9e00de")
+	)
+	(wire
+		(pts
+			(xy 289.56 87.63) (xy 289.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a202759b-e3f2-4167-afe7-288b364272ab")
+	)
+	(wire
+		(pts
+			(xy 353.06 157.48) (xy 351.79 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50cec18-bd7d-451d-ae5a-14a9baa73fc5")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 85.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f77ea2-3ad7-491a-b429-bfde1e1bda42")
+	)
+	(wire
+		(pts
+			(xy 107.95 146.05) (xy 107.95 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6afd3c9-2937-46ee-9574-79a1976468e9")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87275a5-39d2-4339-a68e-8b2d1f3c6059")
+	)
+	(bus
+		(pts
+			(xy 81.28 173.99) (xy 153.67 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96a91b3-acbd-4202-ae21-0e0f031310a0")
+	)
+	(bus
+		(pts
+			(xy 110.49 143.51) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f77793-5685-4504-a05c-b568a88fe521")
+	)
+	(wire
+		(pts
+			(xy 76.2 39.37) (xy 74.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab8c2cf-919b-412a-a928-d536eda2e962")
+	)
+	(bus
+		(pts
+			(xy 274.32 54.61) (xy 292.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca91d40-f539-48ab-ad28-6f665b44f1f7")
+	)
+	(wire
+		(pts
+			(xy 151.13 187.96) (xy 149.86 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbced4d-c095-4559-a785-7113c9588323")
+	)
+	(wire
+		(pts
+			(xy 78.74 116.84) (xy 78.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeadbda1-0b83-4e24-afdc-43d4a6713340")
+	)
+	(wire
+		(pts
+			(xy 325.12 57.15) (xy 325.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af37e44b-d227-4f1d-a74c-3d4ca6ffc956")
+	)
+	(bus
+		(pts
+			(xy 60.96 25.4) (xy 78.74 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd63eae-c93c-4ece-a54b-0d0051f335ec")
+	)
+	(wire
+		(pts
+			(xy 107.95 157.48) (xy 106.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01068e7-778d-470a-8d6f-fd8b05880f93")
+	)
+	(bus
+		(pts
+			(xy 160.02 85.09) (xy 220.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a5ed80-5c32-46a9-8b8d-c7ddc7370eb8")
+	)
+	(wire
+		(pts
+			(xy 237.49 27.94) (xy 237.49 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f05d59-43b4-4b0f-958b-44e0e0be050e")
+	)
+	(bus
+		(pts
+			(xy 355.6 143.51) (xy 373.38 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3751126-7b20-485b-8642-8cc49945b738")
+	)
+	(wire
+		(pts
+			(xy 347.98 116.84) (xy 347.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d175fd-3f79-49de-af32-0d0d45414341")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6446496-e494-41d4-b1b7-00122e1f5b15")
+	)
+	(bus
+		(pts
+			(xy 83.82 54.61) (xy 101.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70dced9-7869-475c-a078-964b06318723")
+	)
+	(bus
+		(pts
+			(xy 266.7 143.51) (xy 284.48 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87c34b7-c1b7-4340-9fd8-3f46d28a0c6d")
+	)
+	(wire
+		(pts
+			(xy 238.76 187.96) (xy 237.49 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a344bb-75f9-4c90-8622-9c1715df3fa5")
+	)
+	(wire
+		(pts
+			(xy 139.7 87.63) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd9713b-9718-4f12-9e41-d38888f69a7b")
+	)
+	(wire
+		(pts
+			(xy 255.27 27.94) (xy 255.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe6fa61-3d8d-4973-95b7-9d217579177f")
+	)
+	(wire
+		(pts
+			(xy 273.05 27.94) (xy 273.05 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4301c0-9321-4eaf-a3ca-2bc7984865f8")
+	)
+	(wire
+		(pts
+			(xy 143.51 157.48) (xy 142.24 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde8abe0-b18c-4995-bad3-90ca223047dd")
+	)
+	(bus
+		(pts
+			(xy 238.76 85.09) (xy 256.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be02f9ee-9811-4c52-8c78-bb2feda0c240")
+	)
+	(bus
+		(pts
+			(xy 222.25 25.4) (xy 240.03 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef4524f-aef8-468a-bb5d-3e5a926c2c7c")
+	)
+	(wire
+		(pts
+			(xy 143.51 146.05) (xy 143.51 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00ec548-5a30-404e-8052-a46b8a98f545")
+	)
+	(wire
+		(pts
+			(xy 317.5 157.48) (xy 316.23 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e26f7f-1380-4f60-b9ab-fd9004a38f0a")
+	)
+	(wire
+		(pts
+			(xy 90.17 146.05) (xy 90.17 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ddebdb-c13b-4a96-a896-79eee627b6db")
+	)
+	(bus
+		(pts
+			(xy 337.82 143.51) (xy 355.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e0758b-d70c-4aa6-9e09-2748f24e4be0")
+	)
+	(bus
+		(pts
+			(xy 238.76 54.61) (xy 256.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47b2c85-aa6d-426b-a9b5-42390ed73511")
+	)
+	(bus
+		(pts
+			(xy 149.86 25.4) (xy 167.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56c0447-79bb-4cfc-b4ea-a68420c8b9ff")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9991ed6-c8fd-4a0e-b54b-c0ddca661a0c")
+	)
+	(wire
+		(pts
+			(xy 383.54 116.84) (xy 383.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9dd4e57-9946-4c3e-8769-9da0a09b91e6")
+	)
+	(wire
+		(pts
+			(xy 256.54 176.53) (xy 256.54 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb528044-92b1-4458-a686-9b56f28d28ac")
+	)
+	(bus
+		(pts
+			(xy 134.62 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2e1527-5945-4320-93bf-33d397690d22")
+	)
+	(wire
+		(pts
+			(xy 63.5 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1553d9-3a6c-4d0b-b70c-490896f92bbb")
+	)
+	(wire
+		(pts
+			(xy 58.42 39.37) (xy 57.15 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3c6944-b622-478e-a744-44988cf97e34")
+	)
+	(wire
+		(pts
+			(xy 264.16 146.05) (xy 264.16 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc2be04-a593-4b9a-81d3-91c9dc8dc049")
+	)
+	(wire
+		(pts
+			(xy 325.12 87.63) (xy 325.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d059d78e-32e6-4747-b723-eb1e4c9d68ba")
+	)
+	(wire
+		(pts
+			(xy 365.76 116.84) (xy 365.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1bd02c0-3a36-44b6-acdf-b2a1b63ecf70")
+	)
+	(wire
+		(pts
+			(xy 104.14 87.63) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24c948f-a486-43dd-b426-fc9203e1729e")
+	)
+	(wire
+		(pts
+			(xy 219.71 27.94) (xy 219.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3174839-7622-4c7f-b173-0aa55c746c75")
+	)
+	(bus
+		(pts
+			(xy 170.18 114.3) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fe3a11-196f-4e7b-b14b-c5115ad5f9d5")
+	)
+	(wire
+		(pts
+			(xy 236.22 99.06) (xy 234.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d432d3fa-305e-409d-ab88-9648151094da")
+	)
+	(bus
+		(pts
+			(xy 275.59 25.4) (xy 293.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dc9e5d-51c7-42e2-9b72-dbd1e84b1e0d")
+	)
+	(wire
+		(pts
+			(xy 179.07 146.05) (xy 179.07 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55b874d-7620-446b-81ee-efe17ba2b73f")
+	)
+	(bus
+		(pts
+			(xy 373.38 173.99) (xy 391.16 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6599333-23a7-4f1a-bc5b-737f563bea3c")
+	)
+	(bus
+		(pts
+			(xy 363.22 25.4) (xy 370.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7646486-41a2-44c1-8b7f-005cb40d2347")
+	)
+	(wire
+		(pts
+			(xy 236.22 87.63) (xy 236.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82c2819-4e30-499f-b1aa-770383508c99")
+	)
+	(bus
+		(pts
+			(xy 327.66 85.09) (xy 345.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88ebc43-cc33-48c1-90d4-23f62f791569")
+	)
+	(wire
+		(pts
+			(xy 307.34 57.15) (xy 307.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97a12c3-23fc-4cf0-92c9-8c97a999d8e7")
+	)
+	(wire
+		(pts
+			(xy 289.56 57.15) (xy 289.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d982e920-263a-44a4-97d2-85b23bedcb40")
+	)
+	(wire
+		(pts
+			(xy 289.56 99.06) (xy 288.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9852c2d-4d31-4acb-aebb-9fefb85607ff")
+	)
+	(bus
+		(pts
+			(xy 259.08 173.99) (xy 355.6 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3d7e9b-2990-41f9-ad7e-db2b4b14e29b")
+	)
+	(wire
+		(pts
+			(xy 259.08 128.27) (xy 257.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5aacd9-afb0-456f-82f6-dd93037fd15b")
+	)
+	(wire
+		(pts
+			(xy 330.2 116.84) (xy 330.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca1dc2a-0a49-4e04-aeb4-2c94b19b090b")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 133.35 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddda4afb-e525-4a01-86c1-b64ad9376341")
+	)
+	(bus
+		(pts
+			(xy 293.37 25.4) (xy 311.15 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0943ccc-f3ea-488d-b9fb-9be3f1a4752b")
+	)
+	(bus
+		(pts
+			(xy 386.08 114.3) (xy 389.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10ba915-f351-4336-8ffa-38242564aae1")
+	)
+	(wire
+		(pts
+			(xy 308.61 39.37) (xy 307.34 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42839a4-a49a-4daa-a80b-326477f89098")
+	)
+	(wire
+		(pts
+			(xy 132.08 128.27) (xy 130.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46100d7-c973-4323-96fb-6ef15bc2304e")
+	)
+	(bus
+		(pts
+			(xy 124.46 85.09) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4624c6e-35d4-433f-98e5-01d75a15a8c4")
+	)
+	(wire
+		(pts
+			(xy 281.94 157.48) (xy 280.67 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b5e678-7106-4a53-a0e8-86b766d6a971")
+	)
+	(bus
+		(pts
+			(xy 241.3 173.99) (xy 259.08 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ed45fa-127d-44cd-9b83-62bfea02ed5e")
+	)
+	(wire
+		(pts
+			(xy 259.08 116.84) (xy 259.08 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ae1a05-3ece-4e0d-9976-c35b86f2448b")
+	)
+	(bus
+		(pts
+			(xy 106.68 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e82dd89e-c2eb-4cd2-8620-8faa64ed4b91")
+	)
+	(wire
+		(pts
+			(xy 307.34 99.06) (xy 306.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b31be8-b0de-4665-8ccf-ecaeed387d97")
+	)
+	(wire
+		(pts
+			(xy 342.9 99.06) (xy 341.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4d8e8a-c85b-4a90-b7d3-326bb81adecd")
+	)
+	(bus
+		(pts
+			(xy 248.92 143.51) (xy 266.7 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac49969-c748-4cd0-91bf-cc8ec3695130")
+	)
+	(wire
+		(pts
+			(xy 290.83 39.37) (xy 289.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2f1981-d2dc-4bac-8be1-d19d25d46a91")
+	)
+	(wire
+		(pts
+			(xy 96.52 128.27) (xy 95.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec307312-899c-46cf-954c-c3f4f19e2fde")
+	)
+	(wire
+		(pts
+			(xy 299.72 146.05) (xy 299.72 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddc1a3d-4357-4acc-8dfa-622d6d12ef84")
+	)
+	(wire
+		(pts
+			(xy 238.76 176.53) (xy 238.76 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4b2efb-aaa9-4d13-93b9-ea446fbe5ab9")
+	)
+	(wire
+		(pts
+			(xy 134.62 57.15) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8cffc6-5e9b-4e4e-bab6-cbbe2341a421")
+	)
+	(wire
+		(pts
+			(xy 367.03 68.58) (xy 365.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef47a75b-85a5-4c2e-bb67-daa82d0c4e8a")
+	)
+	(bus
+		(pts
+			(xy 163.83 143.51) (xy 181.61 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef592a3c-c71a-428f-bdc0-981c42a0cf1f")
+	)
+	(wire
+		(pts
+			(xy 271.78 99.06) (xy 270.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb2fa17-0568-4283-832d-e38d69a16a0c")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effc2420-c821-4a43-8e91-93eac05a657c")
+	)
+	(wire
+		(pts
+			(xy 157.48 99.06) (xy 156.21 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f015d572-71a4-4925-af2f-b80fc96fdcda")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10501ec-dfa4-4bd5-8b75-1845a69baaa5")
+	)
+	(wire
+		(pts
+			(xy 370.84 157.48) (xy 369.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35ee96a-cd33-479c-bf95-ba597bbd2111")
+	)
+	(bus
+		(pts
+			(xy 132.08 25.4) (xy 149.86 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f385045f-27a6-48ef-b69d-3c0824787901")
+	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bbaf14-7654-487b-854e-1a31103e83f3")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 97.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54a2f47-588a-4a3d-9abd-c40a27f7e729")
+	)
+	(wire
+		(pts
+			(xy 149.86 116.84) (xy 149.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b90e18-af2a-44e0-a4ae-d1bf4ce964f1")
+	)
+	(bus
+		(pts
+			(xy 369.57 54.61) (xy 378.46 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d60f0f-b89d-48e4-946c-b19e29300eb6")
+	)
+	(bus
+		(pts
+			(xy 114.3 25.4) (xy 132.08 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f904294c-1560-49d5-9165-ba0272dbcb4b")
+	)
+	(wire
+		(pts
+			(xy 78.74 128.27) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f910cdd9-c5ae-4d21-9426-ca88b01bb768")
+	)
+	(bus
+		(pts
+			(xy 154.94 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f947ef1e-145a-44e3-bcc5-a8c6b170766f")
+	)
+	(bus
+		(pts
+			(xy 309.88 85.09) (xy 327.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ada1d2-4d96-4716-ab5b-10f1f2eb3b36")
+	)
+	(bus
+		(pts
+			(xy 92.71 143.51) (xy 110.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f83251-4447-475b-87c7-121c4fc230a3")
+	)
+	(wire
+		(pts
+			(xy 218.44 57.15) (xy 218.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2ccf8e-e057-4316-bbd6-7f184c0eeb3a")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1e616d-3ffb-458a-ab33-c32c4c301e5a")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc29f12e-ee04-47b5-ab9e-1f99c6856f84")
+	)
+	(wire
+		(pts
+			(xy 237.49 39.37) (xy 236.22 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd42ab2f-cb35-4eb5-a271-35fc788e850f")
+	)
+	(bus
+		(pts
+			(xy 71.12 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd587dc3-faf5-4a2c-b518-f311696773e8")
+	)
+	(label "KEYS_3_11"
+		(at 347.98 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01b4f998-3ee7-497a-898b-581b25f6a064")
+	)
+	(label "KEYS_1_1"
+		(at 81.28 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04478651-9eb5-47d1-bdf6-96dff8d1a3b5")
+	)
+	(label "KEYS_1_14"
+		(at 367.03 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "072a5c9e-b523-4c62-bbeb-494510a54834")
+	)
+	(label "KEYS_0_8"
+		(at 237.49 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09310b01-59cb-4119-880a-9c5cbdd9cb9a")
+	)
+	(label "KEYS_3_6"
+		(at 259.08 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b483dbf-86ad-41b9-9488-2950d7e5d3f6")
+	)
+	(label "KEYS_1_2"
+		(at 99.06 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "113f3083-259d-4c74-baaf-6e57ab61d5d9")
+	)
+	(label "KEYS_5_7"
+		(at 370.84 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "167f9a82-f4b0-430a-9818-8b1244d2fc5c")
+	)
+	(label "KEYS_0_12"
+		(at 308.61 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c3e2a39-72ab-4343-989c-4f4fe7c306e9")
+	)
+	(label "KEYS_5_2"
+		(at 168.91 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ca95d97-1183-4ddc-9787-9e805e2064bb")
+	)
+	(label "KEYS_2_4"
+		(at 139.7 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d65cc92-0ba3-4b8c-b4b1-24e614903099")
+	)
+	(label "KEYS_3_7"
+		(at 276.86 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ecc42c1-c2d3-4796-be4f-61d0821c0961")
+	)
+	(label "KEYS_3_9"
+		(at 312.42 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "251c103b-c09b-41fc-8c8d-1cb990e333b0")
+	)
+	(label "KEYS_3_8"
+		(at 294.64 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25499efb-5a17-46bf-a81c-03d8e760ee99")
+	)
+	(label "KEYS_2_6"
+		(at 218.44 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26103791-17db-4460-8410-ae629109abe2")
+	)
+	(label "KEYS_1_3"
+		(at 116.84 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c7dcc27-a3fe-4cf0-ae98-af9542f7d3f0")
+	)
+	(label "KEYS_1_5"
+		(at 152.4 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "320ec08d-4c55-468f-8780-9395ce767567")
+	)
+	(label "KEYS_4_2"
+		(at 125.73 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34a50660-ac25-480a-995e-fa4185bf924e")
+	)
+	(label "KEYS_0_13"
+		(at 360.68 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35b1c598-80f3-4478-a002-7238d64651fa")
+	)
+	(label "KEYS_1_12"
+		(at 307.34 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35bbdb36-5c5c-4deb-813d-ec306e3ec8d5")
+	)
+	(label "KEYS_0_5"
+		(at 147.32 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f351ff7-22c6-4fdb-871a-0f7f24e633a1")
+	)
+	(label "KEYS_4_10"
+		(at 317.5 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fbc007f-14a0-47f8-bfbd-e4cf0cdfa237")
+	)
+	(label "KEYS_2_2"
+		(at 104.14 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "413ada74-dc30-4b66-9276-eabe41f933e6")
+	)
+	(label "KEYS_0_4"
+		(at 129.54 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41618d18-9369-4901-81f6-44ff825a97d9")
+	)
+	(label "KEYS_3_0"
+		(at 78.74 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44b1a2b7-d266-4132-b210-28caf1ff9e8d")
+	)
+	(label "KEYS_0_10"
+		(at 273.05 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47ca035b-e87b-436f-8c16-dc7ad2220ee0")
+	)
+	(label "KEYS_3_2"
+		(at 114.3 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a466892-227f-4771-a740-6a77a23bc60b")
+	)
+	(label "KEYS_2_7"
+		(at 236.22 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b0c8dd6-ecef-4f44-86a3-f12ed34b5d01")
+	)
+	(label "KEYS_2_8"
+		(at 254 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dd0e5e6-9237-47ef-b945-0a6c5b28030e")
+	)
+	(label "KEYS_2_1"
+		(at 86.36 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5379b1a1-707f-44aa-a052-5795a336208d")
+	)
+	(label "KEYS_0_9"
+		(at 255.27 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57ddf464-77e5-4e77-b97e-1162b1d6509d")
+	)
+	(label "KEYS_4_7"
+		(at 264.16 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d79eb6b-d168-4c06-86c0-fd5fc08239e8")
+	)
+	(label "KEYS_3_1"
+		(at 96.52 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f85c166-a53f-4fe2-a644-37d9777394ef")
+	)
+	(label "KEYS_4_8"
+		(at 281.94 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "608b1141-9e7f-43e5-bbfc-5e828d0ce8fb")
+	)
+	(label "KEYS_4_3"
+		(at 143.51 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6734c28f-215f-466e-a228-7edb316df928")
+	)
+	(label "KEYS_4_1"
+		(at 107.95 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eb9a9af-e38c-4567-9f3b-f07d73dd5801")
+	)
+	(label "KEYS_4_6"
+		(at 246.38 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa5e478-3602-48c0-8995-1c734cc41c29")
+	)
+	(label "KEYS_1_9"
+		(at 254 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72caea4f-8d6d-4e7f-a9b2-746e2dd22b43")
+	)
+	(label "KEYS_0_2"
+		(at 93.98 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "738fa28f-ef98-49c8-b29c-77840ea8f6c7")
+	)
+	(label "KEYS_0_1"
+		(at 76.2 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76433b9b-0ba5-4c80-9758-a44a8812a626")
+	)
+	(label "KEYS_5_1"
+		(at 151.13 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80e00e0a-638c-4ccd-9676-dd32770d0733")
+	)
+	(label "KEYS_1_8"
+		(at 236.22 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81256cc5-1d3d-4887-b888-621708263545")
+	)
+	(label "KEYS_4_5"
+		(at 179.07 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8512cc64-c19a-4452-a9ef-7c71a8bb92d0")
+	)
+	(label "KEYS_4_9"
+		(at 299.72 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8879f4ea-d4f0-4677-9bba-ea41b8a45ce4")
+	)
+	(label "KEYS_2_9"
+		(at 271.78 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88a64c8a-700a-46fd-a4da-ee3ff36508ad")
+	)
+	(label "KEYS_4_11"
+		(at 335.28 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b8638ad-f437-48af-8d85-6d127000638e")
+	)
+	(label "KEYS_2_5"
+		(at 157.48 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bc787b0-0282-437b-bf01-4088bcdc9b6c")
+	)
+	(label "KEYS_3_3"
+		(at 132.08 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8eefa11a-611a-4b94-bec4-c8ce79e28276")
+	)
+	(label "KEYS_5_0"
+		(at 78.74 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fb5ca7d-7c23-413e-9263-036bc9e45750")
+	)
+	(label "KEYS_0_6"
+		(at 165.1 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "917f9605-7910-4288-8f82-8e8e22d0fa22")
+	)
+	(label "KEYS_2_14"
+		(at 374.65 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93e39e85-7597-437c-a33c-c4eff4d76722")
+	)
+	(label "KEYS_4_12"
+		(at 353.06 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ae7c8f3-ef3f-4beb-9231-4282859512be")
+	)
+	(label "KEYS_3_12"
+		(at 365.76 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a82ab8e5-8b4b-4522-85b1-d6a23e97b57c")
+	)
+	(label "KEYS_3_13"
+		(at 383.54 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a974d1c7-43ab-4086-8d46-e46b313deee1")
+	)
+	(label "KEYS_3_4"
+		(at 149.86 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac51f4da-e87c-49f0-b154-96f66c6ba67d")
+	)
+	(label "KEYS_4_4"
+		(at 161.29 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae3f7785-4608-4aad-b622-ca7b6b121185")
+	)
+	(label "KEYS_1_0"
+		(at 63.5 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b18864e7-eb77-47e2-8e5b-314753183eb3")
+	)
+	(label "KEYS_3_10"
+		(at 330.2 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b18bacd2-5f7c-4996-8d5c-27cfb5ce52dd")
+	)
+	(label "KEYS_2_13"
+		(at 342.9 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b230ce65-4683-448a-91e7-11a2884f483b")
+	)
+	(label "KEYS_4_0"
+		(at 90.17 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9a2e8c3-b65a-4eac-ad52-31a7552f5c4e")
+	)
+	(label "KEYS_0_0"
+		(at 58.42 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd31de55-007f-4e65-b787-c76eaaf3423c")
+	)
+	(label "KEYS_5_6"
+		(at 353.06 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdbde414-7f0d-4392-b1fb-99e23bd5605b")
+	)
+	(label "KEYS_2_10"
+		(at 289.56 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be5b812d-057a-4eff-aef6-df62a9457f1e")
+	)
+	(label "KEYS_1_6"
+		(at 170.18 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0301f14-ffd1-4179-8b57-19584375b92a")
+	)
+	(label "KEYS_3_5"
+		(at 167.64 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1faa7a9-0a92-4982-8bd5-d951b1c11645")
+	)
+	(label "KEYS_2_0"
+		(at 68.58 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c23f998c-1720-424a-8ded-70f8a04c9b43")
+	)
+	(label "KEYS_5_5"
+		(at 256.54 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6705042-4274-4810-804d-5c8a94e41299")
+	)
+	(label "KEYS_5_4"
+		(at 238.76 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9eb06da-183f-4f83-9a5d-882d9689c76b")
+	)
+	(label "KEYS_2_3"
+		(at 121.92 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccf3d428-8eb5-4670-9e90-3959006aef7b")
+	)
+	(label "KEYS_1_7"
+		(at 218.44 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cebf4145-66e7-44ff-9a4d-a96f9518d954")
+	)
+	(label "KEYS_0_3"
+		(at 111.76 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d137b7e6-83a1-4ca7-bff3-3b3791aa52f5")
+	)
+	(label "KEYS_5_8"
+		(at 388.62 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4e583b6-66c2-499b-ba3c-1fde3b6dacd5")
+	)
+	(label "KEYS_2_11"
+		(at 307.34 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d50d5a28-069e-4870-879b-96f16efc9804")
+	)
+	(label "KEYS_2_12"
+		(at 325.12 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6b32429-b715-424f-8cd7-ebfd295e2d03")
+	)
+	(label "KEYS_4_13"
+		(at 370.84 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d92d46f0-c8f7-48ba-ac90-781ce88e01e4")
+	)
+	(label "KEYS_0_7"
+		(at 219.71 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db34bbb7-3583-4d98-a5fb-ad32958148b3")
+	)
+	(label "KEYS_1_10"
+		(at 271.78 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1b1c63d-504c-415b-af95-fa11e5356289")
+	)
+	(label "KEYS_1_13"
+		(at 325.12 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5f1ba42-80e4-42dc-9d22-70cb1032b95d")
+	)
+	(label "KEYS_1_11"
+		(at 289.56 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e64b0c6d-04e7-4219-99ed-76d0fe10611e")
+	)
+	(label "KEYS_1_4"
+		(at 134.62 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb920a21-5e3e-4ebd-8060-3dd6be2a77d4")
+	)
+	(label "KEYS_5_3"
+		(at 186.69 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3b000a2-5f2c-4482-8d57-cff8e5530d19")
+	)
+	(label "KEYS_0_11"
+		(at 290.83 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3bc9f2f-fdcf-4496-a75d-46f250b8fe9c")
+	)
+	(hierarchical_label "KEYS_1_[0..14]"
+		(shape output)
+		(at 378.46 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b0601de-c1d6-44cc-86c9-d4cfa827eb48")
+	)
+	(hierarchical_label "KEYS_5_[0..8]"
+		(shape output)
+		(at 391.16 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59bc979f-8acd-49f9-aa89-afa145b8ee59")
+	)
+	(hierarchical_label "KEYS_2_[0..14]"
+		(shape output)
+		(at 383.54 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77957928-ef2f-4072-8245-d11c1e82b0c6")
+	)
+	(hierarchical_label "KEYS_4_[0..13]"
+		(shape output)
+		(at 373.38 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eabcf1f-bf2f-4bbd-a3ea-80f2894c8c34")
+	)
+	(hierarchical_label "KEYS_3_[0..13]"
+		(shape output)
+		(at 389.89 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e95a457-7a14-4d42-bafe-bda8f8587ee2")
+	)
+	(hierarchical_label "KEYS_0_[0..13]"
+		(shape output)
+		(at 370.84 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd82076b-cf2b-45ba-b20c-a51765cab4a0")
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 231.14 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02aded24-b9cc-4b0e-b0d5-d6941d1a0eae")
+		(property "Reference" "S5"
+			(at 237.49 195.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 237.49 197.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.75u"
+			(at 231.14 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 317.5 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24b6dc56-5bb2-46b1-8bd9-94014c0b45b2")
+		(property "Reference" "S1"
+			(at 323.85 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 323.85 78.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+			(at 317.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 358.14 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90817338-c494-41e9-8360-5852d7ee7ffd")
+		(property "Reference" "S2"
+			(at 364.49 134.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 364.49 137.033 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
+			(at 358.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 62.23 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd9721cb-8032-423f-bc5f-51a53ab59afc")
+		(property "Reference" "S3"
+			(at 68.58 154.813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 68.58 157.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2.25u"
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_stab")
+		(at 161.29 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d89787-0319-48d3-8eb4-2591f236f338")
+		(property "Reference" "S4"
+			(at 167.64 195.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_stab"
+			(at 167.64 197.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
+			(at 161.29 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 245.11 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0446b20f-1f86-4b19-93d5-ee86fff51ae0")
+		(property "Sheetname" "sensor50"
+			(at 245.11 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 245.11 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 257.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6389e0ca-3001-4b2b-9b46-4be16b057a3b")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "56")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05951c47-02df-4815-b4cc-09f8da58613b")
+		(property "Sheetname" "sensor5"
+			(at 133.35 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 133.35 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 146.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e5cd6ae-8831-4b67-b4be-cdf871dd12db")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 351.79 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "065a422a-018f-4710-b375-0261bdd1b12b")
+		(property "Sheetname" "sensor56"
+			(at 351.79 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 351.79 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 364.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bad5e649-4957-4dc2-82f1-6d70b8d93c5a")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "62")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a3a5beb-b8b0-486a-9d06-d81f092623dc")
+		(property "Sheetname" "sensor22"
+			(at 222.25 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 222.25 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7d127af-95da-4c88-a342-6dd59600dc7c")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10e0352f-4f26-40f7-bc9c-c1540884a21b")
+		(property "Sheetname" "sensor76"
+			(at 224.79 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 224.79 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 237.49 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f756ecb-e699-4a01-aecc-a628d6142958")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "81")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "131ccc5a-4b0c-4f99-bd37-815a749555f7")
+		(property "Sheetname" "sensor46"
+			(at 100.33 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 100.33 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 113.03 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee5c6863-a2f8-41dc-89d7-d387ea79a239")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "52")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14748538-a3d8-407c-90b6-c74c1b86a9f7")
+		(property "Sheetname" "sensor37"
+			(at 240.03 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 240.03 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b27f4f8-cd37-43d8-a5ef-e2cf8158e62d")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "42")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 294.64 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1927b8e5-5598-4e55-a9bb-35c39ea204d6")
+		(property "Sheetname" "sensor12"
+			(at 294.64 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 294.64 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 307.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de3e39e7-b1a3-4535-bfbb-8c05556d9026")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 356.87 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19434496-782d-4fce-a84f-0be19cd79335")
+		(property "Sheetname" "sensor71"
+			(at 356.87 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 356.87 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 369.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b362f7c-5bf7-49c9-8382-679a5a9ddc1d")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "76")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 280.67 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "254c34f1-88f2-47f8-89aa-2e45ec01fea3")
+		(property "Sheetname" "sensor52"
+			(at 280.67 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 280.67 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 293.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9193a2a5-6176-4a9c-9943-b1c2cd0db100")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "58")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 328.93 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25a3fa55-193b-4285-96d9-bbb28816bd53")
+		(property "Sheetname" "sensor42"
+			(at 328.93 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 328.93 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 341.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "69a8fa50-e5db-41ca-8417-77d5ddadf54d")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 293.37 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28d92cd4-8ae7-4e30-b22f-ac39ad2d46b0")
+		(property "Sheetname" "sensor40"
+			(at 293.37 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 293.37 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 306.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7cf5ebe3-ba2b-4bfb-9d51-f3ddff1d7279")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "45")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c348d1b-f7d9-40ef-8291-17d1d874eb21")
+		(property "Sheetname" "sensor72"
+			(at 64.77 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 64.77 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 77.47 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dae962d0-1fc9-4778-b891-0e2d434ffb0c")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "77")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36658a17-6b02-48b1-b169-54d62a910bd3")
+		(property "Sheetname" "sensor36"
+			(at 222.25 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 222.25 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 234.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "630df365-d35e-46ea-9da2-37d8c7a62159")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "370e5e01-f5ce-4655-a377-a8f4d5f1c391")
+		(property "Sheetname" "sensor35"
+			(at 204.47 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 204.47 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 217.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59c04693-55ba-468d-989c-5ec64c564610")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 285.75 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "43b35073-d77f-4ec4-97f4-b1889fda007d")
+		(property "Sheetname" "sensor67"
+			(at 285.75 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 285.75 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 298.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2a474b7e-acee-4b89-a306-24b6dc99cba9")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "72")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44d90875-7122-47f9-b882-2f32ab13fdb1")
+		(property "Sheetname" "sensor60"
+			(at 111.76 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 111.76 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 124.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1db1aece-3c10-44e4-a44c-6f336c24413b")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "66")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48564bd1-bbd3-43b9-8d38-2289009bf22e")
+		(property "Sheetname" "sensor44"
+			(at 64.77 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 64.77 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 77.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6c41c16-6efe-4a32-8c17-5fce80d30714")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "50")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c6e1e52-53d4-43e4-83bd-6b0593e5dd44")
+		(property "Sheetname" "sensor0"
+			(at 44.45 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 44.45 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c69734f5-c7e0-4370-ab9f-91151bbd59a5")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 250.19 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4de3aab3-c113-42ae-bff4-8bc80b61559d")
+		(property "Sheetname" "sensor65"
+			(at 250.19 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 250.19 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 262.89 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ccdd797-ddb9-4bcc-a5f4-c156428f618a")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "70")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4fcaef03-9df0-48bc-85ec-0fd371e02c22")
+		(property "Sheetname" "sensor9"
+			(at 241.3 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 241.3 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67cc1688-527a-4091-b9bf-252c5296d156")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 353.06 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4fe54b0b-906a-4a43-8d26-afc0da808e19")
+		(property "Sheetname" "sensor28"
+			(at 353.06 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 353.06 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 365.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "242a39c0-c509-4a5a-9b3e-7bd9d73ce3a1")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 339.09 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "530c07a9-ecdb-4d0d-b003-8d6b89858fdd")
+		(property "Sheetname" "sensor70"
+			(at 339.09 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 339.09 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 351.79 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8563fad1-987b-42d8-8b25-97064aa93590")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "75")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "553d2e6e-d501-41f4-919d-9d5b7b63f460")
+		(property "Sheetname" "sensor74"
+			(at 154.94 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 154.94 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 167.64 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79294134-7e29-4d7b-adbd-641180629a77")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "79")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "573e7e2b-543a-4a42-a243-9ba965b8f5fc")
+		(property "Sheetname" "sensor33"
+			(at 125.73 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 125.73 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33fdd4f1-cc38-4d65-9c68-d4e5c181041c")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "38")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 262.89 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57487e57-bdff-4ba9-aa0e-d325bdd63ffe")
+		(property "Sheetname" "sensor51"
+			(at 262.89 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 262.89 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 275.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c487680b-b82f-4fab-8d5c-5751afd881d6")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "57")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5814f53d-6944-4620-b30e-2a41c5683d4b")
+		(property "Sheetname" "sensor49"
+			(at 153.67 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 153.67 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4fcd0f17-0b89-469a-9ba7-904d8ab06f32")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "55")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e6c96e9-07cd-4633-8f33-1de7ab1f42c7")
+		(property "Sheetname" "sensor45"
+			(at 82.55 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 82.55 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d16efcf0-0e94-4617-bb7c-f13f19413692")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "51")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 316.23 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e8e9114-d33b-445b-b6b7-7c3f9c1e3a19")
+		(property "Sheetname" "sensor54"
+			(at 316.23 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 316.23 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 328.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7c863ee0-c023-452b-a5c4-48385cde7ef8")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "60")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f2df956-0fbc-4fb6-b0c1-9c24cc7c1532")
+		(property "Sheetname" "sensor30"
+			(at 72.39 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 72.39 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb9bf04a-5a10-4a98-9cde-2e70d68c38f2")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f31686d-5fa2-401d-bf0b-23157c4986c9")
+		(property "Sheetname" "sensor73"
+			(at 137.16 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 137.16 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 149.86 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8d4adffe-5c82-4bc2-a529-13a601e41127")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "78")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 257.81 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f5abde3-6151-4e62-b94d-837bb7ce142e")
+		(property "Sheetname" "sensor38"
+			(at 257.81 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 257.81 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8d5285b8-0239-45ac-837f-ed67c8cb0606")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "43")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "609a556f-18a7-4134-8698-681c30a5fd7c")
+		(property "Sheetname" "sensor3"
+			(at 97.79 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 97.79 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 110.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a658f5c-4b42-48f1-871a-d7a0225ef9cc")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61e26291-461d-4c1b-b728-0376d804ab89")
+		(property "Sheetname" "sensor4"
+			(at 115.57 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 115.57 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 128.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9dd3b1e3-d535-420c-9446-ff7999145bef")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 356.87 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62007e89-6902-4fe2-a7d4-ca6e5260cd48")
+		(property "Sheetname" "sensor79"
+			(at 356.87 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 356.87 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 369.57 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd0eb7b9-bb10-4fbb-9b6b-b30797ed5eff")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "84")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6254a510-1f77-4b24-8616-204faa72f80f")
+		(property "Sheetname" "sensor63"
+			(at 165.1 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 165.1 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03405286-bea0-4d7d-bdda-93e289c5d3b2")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "69")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 259.08 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63f0f95f-d2a7-4430-8e98-cd0d6085e5b6")
+		(property "Sheetname" "sensor10"
+			(at 259.08 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 259.08 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 271.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb73b337-b86d-4cef-9924-93fd238c595b")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65fef0d5-95fd-45db-9221-24896e9ea888")
+		(property "Sheetname" "sensor23"
+			(at 240.03 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 240.03 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 252.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83632d96-3760-4608-ade5-086e8f93a1b0")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66bf2457-f5cc-4c4c-b3c0-d3485e1420a9")
+		(property "Sheetname" "sensor8"
+			(at 223.52 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 223.52 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 236.22 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "02f3af61-0624-4d6b-91de-9de62190cfd4")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "692a1d34-8ead-40cf-a2a4-a338fd0f2929")
+		(property "Sheetname" "sensor62"
+			(at 147.32 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 147.32 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 160.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "958246e5-f3d5-4125-8613-84c78e3537db")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "68")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70f8cdd4-03f7-42f3-b2c8-0f4c625284b5")
+		(property "Sheetname" "sensor2"
+			(at 80.01 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 80.01 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 92.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f112a8f5-a069-4b74-ab8f-7b11a725484b")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72a02de5-2767-49c4-903a-acfec1e9f90d")
+		(property "Sheetname" "sensor32"
+			(at 107.95 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 107.95 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "69feb2de-8d0c-4c3f-85e6-cad6e6473a71")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7380bf4d-d981-4087-9892-b49dee43eaed")
+		(property "Sheetname" "sensor34"
+			(at 143.51 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 143.51 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ce491a2-6874-48fc-a9a7-720ca8784b7f")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 293.37 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b97d093-6120-4e1a-b614-432d601ca961")
+		(property "Sheetname" "sensor26"
+			(at 293.37 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 293.37 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 306.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0c43bdb4-9448-49a9-af86-22852d8e879a")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 321.31 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f46b5f3-2f41-4bff-8c31-735d98ebd525")
+		(property "Sheetname" "sensor69"
+			(at 321.31 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 321.31 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 334.01 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "94b28d81-2087-4f51-99ed-288f1e0fa2be")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "74")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "876aa9a3-32f5-4b97-b961-ed30f11ed53e")
+		(property "Sheetname" "sensor47"
+			(at 118.11 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 118.11 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0835d82a-cbb7-477c-a170-c0324c756fbe")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "53")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 267.97 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8886a84c-8d32-45f6-bbe2-c832dda0d0af")
+		(property "Sheetname" "sensor66"
+			(at 267.97 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 267.97 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 280.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44b69062-41be-4308-b550-ce1ff9cd543f")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "71")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 360.68 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c8cd412-776e-4a2e-ada0-90e13af7bd37")
+		(property "Sheetname" "sensor43"
+			(at 360.68 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 360.68 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 373.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a56ef33-1061-4841-ac13-bdb051556a86")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "48")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d3d6689-24fe-4f4f-920f-15adc37681c0")
+		(property "Sheetname" "sensor20"
+			(at 156.21 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 156.21 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b785c440-685d-4dde-a5da-54ea36814ca3")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 275.59 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91528724-f1a3-4210-8669-22a3989ba188")
+		(property "Sheetname" "sensor25"
+			(at 275.59 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 275.59 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 288.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f0556df0-861a-4f11-84c7-374cf0ac4e0a")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 374.65 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91d3345e-75a7-42ab-82e3-3cd476d7fa85")
+		(property "Sheetname" "sensor80"
+			(at 374.65 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 374.65 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 387.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "796b6cbd-1518-44c7-a99e-8f5cdf2b0792")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "85")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 257.81 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9407d66f-248f-4bef-8059-b9d726735784")
+		(property "Sheetname" "sensor24"
+			(at 257.81 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 257.81 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e840eec2-679b-4944-9b87-8d768ad0819e")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 298.45 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95af8ead-c5f1-4eef-8ec0-d95e9b4979df")
+		(property "Sheetname" "sensor53"
+			(at 298.45 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 298.45 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 311.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85aa554a-701e-4883-8481-01f9b19fd832")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "59")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9919c8a8-6545-4376-9d8f-8663a726aa4f")
+		(property "Sheetname" "sensor75"
+			(at 172.72 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 172.72 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 185.42 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2341f352-c44d-48b4-880b-5ecc1ff46e14")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "80")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a93c875f-467c-4ce2-b509-6982e8dd454e")
+		(property "Sheetname" "sensor48"
+			(at 135.89 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 135.89 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 148.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d56257b-6762-4c98-a067-751b16390caf")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "54")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa6efc1e-76ff-4896-83a0-0e0e9a1e24db")
+		(property "Sheetname" "sensor29"
+			(at 54.61 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 54.61 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11c93ca0-a3c5-4090-bb14-9a96aa149197")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.41 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "acf97186-e706-46f2-bd5c-605cbfab8813")
+		(property "Sheetname" "sensor64"
+			(at 232.41 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 232.41 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "13ba5bbf-29d2-491c-ba42-6a51e905a2ef")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "86")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1f9cb79-841a-4669-ac26-8edf23e68afd")
+		(property "Sheetname" "sensor77"
+			(at 242.57 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 242.57 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 255.27 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e519a5e4-7fc7-4bd4-808e-c69b4e8917d3")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "82")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b228f05c-926f-4ca2-9e68-5ab7d55d91b8")
+		(property "Sheetname" "sensor59"
+			(at 93.98 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 93.98 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6623619-26c0-485a-9485-36be904f318d")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "65")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b47005d9-7cb3-461c-9954-16a4c07bc1d3")
+		(property "Sheetname" "sensor21"
+			(at 204.47 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 204.47 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 217.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a1e3d9d-bc20-4f95-95a2-0769fbe9cc4c")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b98977a2-300c-48e9-9173-ccad54e33f3c")
+		(property "Sheetname" "sensor6"
+			(at 151.13 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 151.13 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 163.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd14dbd9-35de-4ca6-baa8-6c15d5b347cb")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9ec58dd-4a1d-412b-bae9-ea0f13346d64")
+		(property "Sheetname" "sensor16"
+			(at 85.09 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 85.09 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0248537c-a787-4746-b263-574258c11439")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 311.15 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc878042-76ac-4c38-9884-e810e76e53fd")
+		(property "Sheetname" "sensor27"
+			(at 311.15 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 311.15 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 323.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "022a9d00-3728-4941-ad71-b3faf2666df4")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 369.57 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd68a982-5886-4372-96d9-824231f8d143")
+		(property "Sheetname" "sensor57"
+			(at 369.57 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 369.57 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 382.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24c6fb3a-7b96-4ec4-a81e-3278a30b209e")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "63")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3c786db-3f84-44c0-87eb-5ddb0303e181")
+		(property "Sheetname" "sensor7"
+			(at 205.74 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 205.74 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37b635c8-6915-4560-969f-ebd16d15db7f")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4964cec-6d0a-41c5-be41-6fa8180f3981")
+		(property "Sheetname" "sensor1"
+			(at 62.23 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 62.23 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 74.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dffd6e54-e6f6-4e88-944c-0dc3a11182e4")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 339.09 185.42)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c69df878-29e2-45de-98ec-a572571620c0")
+		(property "Sheetname" "sensor78"
+			(at 339.09 184.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 339.09 189.7066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 351.79 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0303ecce-27ff-4c0c-9eb6-9e4808528cb8")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "83")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 276.86 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ccef8ac7-27a1-44c0-bd1a-3dec5e224da0")
+		(property "Sheetname" "sensor11"
+			(at 276.86 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 276.86 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 289.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "53008bfd-e7d1-4a6b-8da7-37cf54121df2")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 346.71 36.83)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cdd5c1b0-934f-4588-803d-09e7ee1623af")
+		(property "Sheetname" "sensor13"
+			(at 346.71 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 346.71 41.1166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 359.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "403f598d-5a25-4f7d-aff0-215c3ba12625")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce1da959-ad07-40cf-81fe-2fd30795b521")
+		(property "Sheetname" "sensor14"
+			(at 49.53 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 49.53 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "02a55c06-64f9-4d94-963b-ab4ba4fed2eb")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ceb62003-9a06-40d2-802b-7ff4e9c8e2ad")
+		(property "Sheetname" "sensor31"
+			(at 90.17 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 90.17 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 102.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4fa50a01-6fe8-4caa-99f6-897f7dac1fac")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "36")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9284119-197f-451b-8992-e7dda7a48bff")
+		(property "Sheetname" "sensor68"
+			(at 303.53 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 303.53 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 316.23 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9944aad1-7b32-4430-b8e4-d9e19358f91b")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "73")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db387faf-b5c0-4a7c-b43c-7a9d6ebe14d2")
+		(property "Sheetname" "sensor17"
+			(at 102.87 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 102.87 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 115.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03b3d03e-37e8-4a4d-a655-6e4eec689284")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 311.15 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db4dd474-c2ae-46e6-a0b5-eadd9293340a")
+		(property "Sheetname" "sensor41"
+			(at 311.15 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 311.15 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 323.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "088b8bbd-d9ab-4e02-ba09-14c0110b8d21")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "46")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 334.01 125.73)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc9440eb-296e-4a66-8098-4cfe77abdee6")
+		(property "Sheetname" "sensor55"
+			(at 334.01 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 334.01 130.0166 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 346.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7182b5e5-e1ff-4527-89c8-80edab865c77")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "61")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e57a9ae8-29ad-41a3-bc85-7e4abc1626dd")
+		(property "Sheetname" "sensor19"
+			(at 138.43 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 138.43 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0e57e04-56d9-4a51-a979-bc13d8710b3a")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea56537f-5073-4bc2-8e80-ed4853f1e298")
+		(property "Sheetname" "sensor15"
+			(at 67.31 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 67.31 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 80.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79c075ca-ee31-467b-a3b2-461b5fc35845")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea6be189-81b5-4eab-a12d-acfcb254b536")
+		(property "Sheetname" "sensor61"
+			(at 129.54 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 129.54 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4ba4d31-8176-4df9-947c-ad2ff183373e")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "67")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 275.59 96.52)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3d70164-49b6-405d-af25-8a3e7850a7a1")
+		(property "Sheetname" "sensor39"
+			(at 275.59 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 275.59 100.8066 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 288.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9bef55b-d42a-40a2-8314-21c81c16a962")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "44")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 66.04)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f847efcc-89c6-4909-9861-f165496d2aac")
+		(property "Sheetname" "sensor18"
+			(at 120.65 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 120.65 70.3266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 133.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4da462f1-f4e6-4b4e-bea7-36fbeb3bc4d2")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 154.94)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "febc2fad-1524-473c-9cbf-bf068ea5119b")
+		(property "Sheetname" "sensor58"
+			(at 76.2 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 76.2 159.2266 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 88.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b0ee871-5349-4c38-8b79-d997e34e46f1")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4"
+					(page "5")
+				)
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/fb2aaba3-3842-4616-b174-96769827734e/b2a83ed0-9058-4027-92bf-863dcf5366cb"
+					(page "5")
+				)
+			)
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
+					(page "64")
+				)
+			)
+		)
+	)
+)

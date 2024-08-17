@@ -1637,6 +1637,102 @@
 				)
 			)
 		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:Jumper_2_Open"
 			(pin_names
 				(offset 0) hide)
@@ -3058,6 +3154,88 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -5531,7 +5709,7 @@
 		(uuid "58009bff-f33d-4888-bc0a-2117c58c5ab0")
 	)
 	(junction
-		(at 20.32 26.67)
+		(at 26.67 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ac89ffe-5b7a-4e4d-8550-58a2c56bb392")
@@ -5543,28 +5721,22 @@
 		(uuid "5f00b543-cbda-4053-926c-9377596db618")
 	)
 	(junction
-		(at 232.41 132.715)
+		(at 242.57 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66896a16-59a8-4a2a-85fa-22ed55eba3a9")
+		(uuid "5ffb5b95-3a55-4435-92f8-a118e13fe048")
 	)
 	(junction
-		(at 220.98 121.92)
+		(at 38.1 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75aa93bd-153a-4f72-949d-4e414ee5a1bf")
+		(uuid "8621892c-3f0b-4c82-913b-5871c2c992bf")
 	)
 	(junction
 		(at 229.87 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fe8f038-118a-4be1-a6bd-a9760fc38120")
-	)
-	(junction
-		(at 242.57 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9da852a5-57f8-4171-9d18-2054cdb9b599")
 	)
 	(junction
 		(at 255.27 34.29)
@@ -5579,25 +5751,19 @@
 		(uuid "b69946c6-5171-4f06-bb66-02c0bfcae0db")
 	)
 	(junction
+		(at 231.14 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2ccfb2d-e4c3-4bc6-b588-b61a0669ea84")
+	)
+	(junction
 		(at 255.27 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c742d097-b0d0-4ef4-aa31-7d2f2062914a")
 	)
 	(junction
-		(at 220.98 132.715)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7e601f2-0d72-4818-96fc-0f84f576720d")
-	)
-	(junction
-		(at 232.41 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d622034a-2a37-4514-b50e-c4b861baa89f")
-	)
-	(junction
-		(at 45.72 26.67)
+		(at 52.07 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde4e4a6-13f1-40ad-ae3c-8e82c2bbb59d")
@@ -5607,6 +5773,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1166978-2c66-4851-8f15-02aa38e37f6d")
+	)
+	(junction
+		(at 231.14 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed1e3b0c-a367-4b46-931a-8f5bab3a226d")
 	)
 	(bus_entry
 		(at 17.78 289.56)
@@ -5722,16 +5894,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 121.92) (xy 228.6 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09dce5cc-bbff-4a18-8489-3f66151d5655")
-	)
-	(wire
-		(pts
 			(xy 162.56 30.48) (xy 168.91 30.48)
 		)
 		(stroke
@@ -5752,6 +5914,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 127) (xy 242.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4472ab-671f-40af-a622-e35c38050a7c")
+	)
+	(wire
+		(pts
 			(xy 20.32 292.1) (xy 34.29 292.1)
 		)
 		(stroke
@@ -5762,16 +5934,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 116.84) (xy 232.41 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dfe8b87-8b0c-492d-b375-753790317d1c")
-	)
-	(wire
-		(pts
 			(xy 125.73 111.76) (xy 138.43 111.76)
 		)
 		(stroke
@@ -5779,6 +5941,16 @@
 			(type default)
 		)
 		(uuid "1224dfe7-a999-4cb5-bb7f-07ee233e76b8")
+	)
+	(wire
+		(pts
+			(xy 242.57 127) (xy 246.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14244d79-84f1-48fb-80a1-5e6d6ae97309")
 	)
 	(bus
 		(pts
@@ -5792,6 +5964,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 120.65) (xy 231.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a90054-3c68-4e46-a285-8969d0f1d216")
+	)
+	(wire
+		(pts
 			(xy 125.73 139.7) (xy 138.43 139.7)
 		)
 		(stroke
@@ -5799,16 +5981,6 @@
 			(type default)
 		)
 		(uuid "167b2756-9f57-4ef4-b386-6cfcaf9941ea")
-	)
-	(wire
-		(pts
-			(xy 242.57 119.38) (xy 242.57 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1942d97c-9e1b-4c5e-b79f-f99030bdf62c")
 	)
 	(wire
 		(pts
@@ -5852,13 +6024,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 125.73) (xy 220.98 121.92)
+			(xy 52.07 35.56) (xy 52.07 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2040edef-54fd-49b3-a958-7f523e242499")
+		(uuid "20617eb1-a66b-4ecb-b443-ba02db559006")
 	)
 	(wire
 		(pts
@@ -5902,7 +6074,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 26.67) (xy 24.13 26.67)
+			(xy 26.67 29.21) (xy 30.48 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5952,16 +6124,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 125.73) (xy 242.57 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b19f7a7-fea6-413b-aad5-cfc10e31138e")
-	)
-	(wire
-		(pts
 			(xy 60.96 71.12) (xy 76.2 71.12)
 		)
 		(stroke
@@ -5982,37 +6144,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 130.81) (xy 220.98 132.715)
+			(xy 219.71 127) (xy 226.06 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34fa6402-1ccb-4553-9e6f-32d4b52a1f05")
+		(uuid "36862974-a963-4d5f-aa20-553d972f509e")
 	)
 	(wire
 		(pts
-			(xy 45.72 35.56) (xy 45.72 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3997cf4a-390b-479d-ab3c-9263d7baa472")
-	)
-	(wire
-		(pts
-			(xy 232.41 128.27) (xy 232.41 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c4739ef-f471-4053-a6ad-3c51f5ebe10b")
-	)
-	(wire
-		(pts
-			(xy 39.37 26.67) (xy 45.72 26.67)
+			(xy 45.72 29.21) (xy 52.07 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6062,26 +6204,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 121.92) (xy 220.98 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7bf85e-3bc1-490d-b0c7-45b8c8ad568f")
-	)
-	(wire
-		(pts
-			(xy 232.41 132.715) (xy 242.57 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc1c22b-a937-42e6-b0cf-de3957c4d7a4")
-	)
-	(wire
-		(pts
 			(xy 167.64 27.94) (xy 181.61 27.94)
 		)
 		(stroke
@@ -6089,6 +6211,16 @@
 			(type default)
 		)
 		(uuid "64c06fd8-678e-4079-a2c0-5113e39b38b6")
+	)
+	(wire
+		(pts
+			(xy 231.14 120.65) (xy 236.22 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66154e3b-1975-4ca8-8233-c89b004debda")
 	)
 	(wire
 		(pts
@@ -6152,23 +6284,33 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 128.27) (xy 232.41 132.715)
+			(xy 241.3 120.65) (xy 242.57 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c05d22d-3d0a-4fd0-93c9-840b5feb6b9d")
+		(uuid "73e75d1e-89be-4411-b2b8-0da5b276ed4b")
 	)
 	(wire
 		(pts
-			(xy 20.32 35.56) (xy 20.32 33.02)
+			(xy 26.67 35.56) (xy 26.67 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d8ae382-1534-4174-ac6b-35eac1345634")
+		(uuid "7baae4b3-91ff-4d12-9482-0cd49a9720ea")
+	)
+	(wire
+		(pts
+			(xy 26.67 36.83) (xy 38.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e468670-f042-44fd-ba46-af15c96aeace")
 	)
 	(wire
 		(pts
@@ -6229,16 +6371,6 @@
 			(type default)
 		)
 		(uuid "84c72d89-deca-47b8-a699-fcf1954dbe45")
-	)
-	(wire
-		(pts
-			(xy 242.57 130.81) (xy 242.57 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "858ef2e4-13cd-4eb4-82e3-f45db96070a0")
 	)
 	(wire
 		(pts
@@ -6312,7 +6444,17 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 27.94) (xy 20.32 26.67)
+			(xy 38.1 38.1) (xy 38.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926bb093-7749-4fac-b300-a51a8b3363af")
+	)
+	(wire
+		(pts
+			(xy 26.67 30.48) (xy 26.67 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6370,16 +6512,6 @@
 		)
 		(uuid "9b5008a0-9bf3-4f4a-84a8-53e8fd61261a")
 	)
-	(wire
-		(pts
-			(xy 220.98 132.715) (xy 232.41 132.715)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9b2612-bf1d-4393-95ad-d22b1629a4c3")
-	)
 	(bus
 		(pts
 			(xy 10.16 292.1) (xy 17.78 292.1)
@@ -6389,16 +6521,6 @@
 			(type default)
 		)
 		(uuid "a6756aff-e00d-4fa3-a80e-d432b4c3df0f")
-	)
-	(wire
-		(pts
-			(xy 227.33 115.57) (xy 227.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a681e5d3-4273-4302-b79c-fdf20ee5ea2b")
 	)
 	(wire
 		(pts
@@ -6412,7 +6534,37 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 24.13) (xy 20.32 26.67)
+			(xy 231.14 123.19) (xy 231.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6202f6-dfd3-4186-afcf-fff382a5a879")
+	)
+	(wire
+		(pts
+			(xy 226.06 135.89) (xy 231.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acab62d6-d005-4261-95ee-7247fa57b98e")
+	)
+	(wire
+		(pts
+			(xy 52.07 36.83) (xy 38.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad34e5fc-e0d4-4f67-b374-46d77d563ba4")
+	)
+	(wire
+		(pts
+			(xy 26.67 26.67) (xy 26.67 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6439,6 +6591,16 @@
 			(type default)
 		)
 		(uuid "b392d26f-040e-4ffc-8e1c-a2db3d165f58")
+	)
+	(wire
+		(pts
+			(xy 242.57 127) (xy 242.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b418490f-82cb-4aa1-9e95-f46dc0e47b61")
 	)
 	(wire
 		(pts
@@ -6532,13 +6694,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 121.92) (xy 242.57 121.92)
+			(xy 242.57 120.65) (xy 242.57 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3ddc9a9-cb3c-4bd3-b7ae-62f0e98ae721")
+		(uuid "c7463be0-8dee-44f4-bc17-031d8d81b8de")
 	)
 	(wire
 		(pts
@@ -6549,16 +6711,6 @@
 			(type default)
 		)
 		(uuid "c76f5b7f-a984-4024-bc5f-1cc8444f5ee8")
-	)
-	(wire
-		(pts
-			(xy 232.41 115.57) (xy 227.33 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80940c8-a738-4e96-8f18-a89fa7086b3c")
 	)
 	(wire
 		(pts
@@ -6682,16 +6834,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 116.84) (xy 242.57 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e056295c-dc15-447e-b5ef-52a4a8c8975d")
-	)
-	(wire
-		(pts
 			(xy 255.27 58.42) (xy 270.51 58.42)
 		)
 		(stroke
@@ -6752,13 +6894,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 128.27) (xy 232.41 128.27)
+			(xy 231.14 130.81) (xy 231.14 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e61197de-8a6f-43f4-9919-44a758ba3b82")
+		(uuid "e976d3f9-a2f3-4f03-9652-cc7c7700e3f2")
 	)
 	(bus
 		(pts
@@ -6769,6 +6911,16 @@
 			(type default)
 		)
 		(uuid "ea1facc3-f25e-4750-87b1-f371b2d7b805")
+	)
+	(wire
+		(pts
+			(xy 241.3 135.89) (xy 242.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead5d205-b0d4-427c-a2ae-fb619821baa0")
 	)
 	(wire
 		(pts
@@ -6792,6 +6944,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 135.89) (xy 236.22 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b5637c-f984-49c7-b464-097d7368ee8e")
+	)
+	(wire
+		(pts
 			(xy 229.87 68.58) (xy 214.63 68.58)
 		)
 		(stroke
@@ -6812,7 +6974,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 45.72 26.67)
+			(xy 52.07 30.48) (xy 52.07 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6832,7 +6994,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 24.13) (xy 45.72 26.67)
+			(xy 52.07 26.67) (xy 52.07 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6964,17 +7126,6 @@
 		)
 		(uuid e99760e6-9b8a-45ef-acc6-024495678f05)
 	)
-	(text "9pF"
-		(exclude_from_sim no)
-		(at 235.585 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1234269e-19ec-4057-82b6-284685a199ea")
-	)
 	(text "OLED\n"
 		(exclude_from_sim no)
 		(at 110.49 16.51 0)
@@ -7084,17 +7235,6 @@
 			(justify right bottom)
 		)
 		(uuid "00db556a-c8fb-490a-8f37-3d67d43b3b6f")
-	)
-	(label "in_esr"
-		(at 20.32 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04b43124-0de3-4ac6-82c2-d57e0075b393")
 	)
 	(label "EWSB_D-"
 		(at 161.29 27.94 180)
@@ -7470,14 +7610,14 @@
 		)
 		(uuid "67bf024c-1759-451b-8f4b-b485d376e7bb")
 	)
-	(label "OSC_OUT"
-		(at 242.57 111.76 0)
+	(label "XTAL1"
+		(at 226.06 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "688808ca-6215-4bde-8eed-746c3a079d9f")
 	)
@@ -7514,14 +7654,14 @@
 		)
 		(uuid "7579131f-8e52-4f7e-b223-1801be18e169")
 	)
-	(label "OSC_IN"
-		(at 220.98 111.76 0)
+	(label "XTAL2"
+		(at 226.06 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "78139b88-0c43-461e-bffc-0eae2469ded1")
 	)
@@ -7668,7 +7808,7 @@
 		)
 		(uuid "ac5103cb-3e7a-4d4a-b0b3-55323a4babf0")
 	)
-	(label "OSC_OUT"
+	(label "XTAL2"
 		(at 125.73 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7844,7 +7984,7 @@
 		)
 		(uuid "ec16ca8e-dc4c-4feb-b549-d62483371639")
 	)
-	(label "OSC_IN"
+	(label "XTAL1"
 		(at 125.73 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7888,17 +8028,6 @@
 		)
 		(uuid "f2e3a810-2654-43e8-8e1b-ac7d3750712d")
 	)
-	(label "out_esr"
-		(at 45.72 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f366511f-b30e-4ede-a138-b9e0f35d1815")
-	)
 	(label "BOOT0"
 		(at 19.05 243.84 0)
 		(fields_autoplaced yes)
@@ -7930,7 +8059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01460ad9-d9c5-487e-a94a-2af14b3142cf")
-		(property "Reference" "R90"
+		(property "Reference" "R1"
 			(at 165.1 26.035 90)
 			(effects
 				(font
@@ -7982,7 +8111,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "R90")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8076,75 +8205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 20.32 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ccc95d3-d2d2-44c1-8e8c-2465a6fd9463")
-		(property "Reference" "C171"
-			(at 22.225 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 22.225 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 20.32 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbb4ae14-cb1b-4e36-ae92-c42d3facbe7d")
-		)
-		(pin "2"
-			(uuid "87a710cf-a796-4c43-bd00-0b6b7681a52d")
-		)
-		(instances
-			(project "Erebus"
-				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "C171")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 147.32 27.94 0)
 		(mirror y)
@@ -8173,7 +8233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MoonBoard:PicoEZMate-Reinforced-Alt"
+		(property "Footprint" "Erebus:PicoEZMate-Reinforced-Alt"
 			(at 147.32 27.94 0)
 			(effects
 				(font
@@ -8253,7 +8313,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 45.72 24.13 0)
+		(at 52.07 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8261,8 +8321,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "171a6d34-287c-431c-86c5-c0289c4a6159")
-		(property "Reference" "#PWR0360"
-			(at 45.72 27.94 0)
+		(property "Reference" "#PWR04"
+			(at 52.07 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8331,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 45.72 19.685 0)
+			(at 52.07 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 24.13 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 24.13 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 24.13 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,76 +8371,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0360")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 45.72 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1889ad2a-dfa6-44a2-ac01-a63a27e84845")
-		(property "Reference" "C172"
-			(at 39.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 39.37 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d16903f3-4464-4660-a312-4745a480531c")
-		)
-		(pin "2"
-			(uuid "282ba734-51d9-4a36-9bbc-8bb4fa8b0519")
-		)
-		(instances
-			(project "Erebus"
-				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "C172")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8396,7 +8387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "216cb9c3-d1aa-4045-9ae9-c81d468c67ee")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 54.2641 311.785 0)
 			(effects
 				(font
@@ -8589,7 +8580,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8664,74 +8655,7 @@
 			)
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 242.57 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21d27705-5502-41f9-97c3-54c3c5621829")
-		(property "Reference" "R95"
-			(at 245.11 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 247.65 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e359f70f-5d37-44e4-b419-e64f3f3123c0")
-		)
-		(pin "2"
-			(uuid "5fcd2a29-77ab-49a5-9409-6c00542d1ce9")
-		)
-		(instances
-			(project "Erebus"
-				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "R95")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8747,7 +8671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2277a5ad-a08e-40f3-9b87-7f562b9496f0")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR027"
 			(at 52.07 318.77 0)
 			(effects
 				(font
@@ -8797,7 +8721,73 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR06")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 246.38 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b5e8edc-f34d-4123-b5b2-57de2384c382")
+		(property "Reference" "#PWR023"
+			(at 246.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e987748-a69a-41ae-b2c3-2d7f8b4bd27d")
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8830,7 +8820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MoonBoard:OLED Module"
+		(property "Footprint" "Erebus:OLED Module"
 			(at 129.54 33.02 0)
 			(effects
 				(font
@@ -8879,6 +8869,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 111.76 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35936c3a-0766-491d-b143-b78f553a3bc2")
+		(property "Reference" "H3"
+			(at 53.34 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 129.54 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370aab73-d355-41c1-8652-fb0e4eb9d14c")
+		(property "Reference" "H6"
+			(at 53.34 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 50.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 171.45 30.48 270)
 		(unit 1)
@@ -8887,7 +9005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b0c4c84-429c-43e5-aab5-62d683d1afe1")
-		(property "Reference" "R91"
+		(property "Reference" "R2"
 			(at 171.45 32.385 90)
 			(effects
 				(font
@@ -8939,7 +9057,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "R91")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8954,7 +9072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c7299c2-65a5-43f0-aafa-cc6887e1fddc")
-		(property "Reference" "U10"
+		(property "Reference" "U2"
 			(at 242.57 17.3736 0)
 			(effects
 				(font
@@ -8970,7 +9088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MoonBoard:DFN2510"
+		(property "Footprint" "Erebus:DFN2510"
 			(at 242.57 2.54 0)
 			(effects
 				(font
@@ -9066,7 +9184,211 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "U10")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 52.07 33.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43c4a13b-493c-44d9-81f2-af932db13ab7")
+		(property "Reference" "C2"
+			(at 49.53 31.7435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100u"
+			(at 49.53 34.2835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19ac01fa-5e7e-401e-8d2b-95635dfb91f7")
+		)
+		(pin "2"
+			(uuid "3294db15-ff2f-4f8e-9c17-47756804a67e")
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 238.76 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44f02e34-769e-4a23-b254-de6b7ec09a60")
+		(property "Reference" "C3"
+			(at 238.7663 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22p"
+			(at 238.7663 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56b0c3ed-dc8b-4cee-a38f-d2dbdb7e7c3f")
+		)
+		(pin "2"
+			(uuid "7adedb06-e8a1-44e8-97e8-47fc7ca8fd63")
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 219.71 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45a22348-3214-42fa-ae79-944261b78008")
+		(property "Reference" "#PWR022"
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75067a9d-7ae2-43ea-af11-e005be0803b5")
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9083,7 +9405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4688d5da-5522-4f86-9358-57d97d66fabf")
-		(property "Reference" "#PWR0375"
+		(property "Reference" "#PWR021"
 			(at 132.08 119.38 0)
 			(effects
 				(font
@@ -9134,7 +9456,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0375")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9149,7 +9471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d004870-cab8-44e3-ad03-677379b3ecb2")
-		(property "Reference" "#PWR0374"
+		(property "Reference" "#PWR020"
 			(at 138.43 105.41 0)
 			(effects
 				(font
@@ -9199,77 +9521,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0374")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 220.98 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52e0f5e0-a730-4e44-ad6c-050eb2b4349f")
-		(property "Reference" "C173"
-			(at 223.52 126.9936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "8p"
-			(at 223.52 129.5336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 220.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d478e807-2c8b-4f1d-a109-d737aa14944c")
-		)
-		(pin "2"
-			(uuid "db370b0e-d524-438e-8fe8-7667910a2be7")
-		)
-		(instances
-			(project "Erebus"
-				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "C173")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9285,7 +9537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5917443e-0927-49c0-ad8b-4c39a4d27f2a")
-		(property "Reference" "SW82"
+		(property "Reference" "SW1"
 			(at -6.35 234.315 0)
 			(effects
 				(font
@@ -9337,7 +9589,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "SW82")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9353,7 +9605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5caa1eb4-7ffc-40b3-a2d6-5fb4936e7690")
-		(property "Reference" "#PWR0361"
+		(property "Reference" "#PWR01"
 			(at 158.75 29.21 0)
 			(effects
 				(font
@@ -9403,7 +9655,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0361")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9489,17 +9741,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 45.72 38.1 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 143.51 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "76c99b79-8cd6-42ce-a1c7-b2b6e62e5962")
-		(property "Reference" "R94"
-			(at 48.26 36.83 0)
+		(uuid "73550c88-9cc4-43d1-84f0-0052a55197c1")
+		(property "Reference" "H8"
+			(at 52.07 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,8 +9759,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
-			(at 48.26 39.37 0)
+		(property "Value" "MountingHole"
+			(at 52.07 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,8 +9768,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 45.72 38.1 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 49.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 38.1 0)
+			(at 49.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,25 +9786,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 38.1 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "9d1d3134-1bc4-45eb-afa9-c72c08cfb34b")
-		)
-		(pin "2"
-			(uuid "c84e2204-b593-4d27-ae1e-b3c247a13a30")
 		)
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "R94")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -9569,7 +9815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad44957-af64-4661-9612-c04ad8502285")
-		(property "Reference" "#PWR0367"
+		(property "Reference" "#PWR09"
 			(at 152.4 39.37 0)
 			(effects
 				(font
@@ -9619,7 +9865,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0367")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9634,7 +9880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81fc5587-f7aa-479a-9330-32e544a5110a")
-		(property "Reference" "#PWR0370"
+		(property "Reference" "#PWR011"
 			(at 162.56 31.75 0)
 			(effects
 				(font
@@ -9684,7 +9930,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0370")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9699,7 +9945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8533d2b9-5e34-44bb-874b-70985195ff10")
-		(property "Reference" "#PWR0378"
+		(property "Reference" "#PWR014"
 			(at 241.3 48.26 0)
 			(effects
 				(font
@@ -9749,7 +9995,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0378")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9757,7 +10003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 34.29 0)
+		(at 38.1 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9765,8 +10011,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86a8e0b6-d6a4-4eaa-adae-7fd174d2e3b9")
-		(property "Reference" "#PWR0368"
-			(at 31.75 40.64 0)
+		(property "Reference" "#PWR012"
+			(at 38.1 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +10021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 38.735 0)
+			(at 38.1 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +10029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 34.29 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +10038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 34.29 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +10047,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 34.29 0)
+			(at 38.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,72 +10061,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0368")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.98 132.715 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8965aaa1-a0e4-4dce-b3b1-b22e527a668e")
-		(property "Reference" "#PWR0377"
-			(at 220.98 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "befda0fb-3143-4e4e-9960-c4fde0c048a7")
-		)
-		(instances
-			(project "Erebus"
-				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0377")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9895,7 +10076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bf2f98d-33c9-497d-81d4-20cc474f0718")
-		(property "Reference" "#PWR0379"
+		(property "Reference" "#PWR019"
 			(at 241.3 82.55 0)
 			(effects
 				(font
@@ -9945,7 +10126,71 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0379")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ea5fded-e7c9-4404-814b-cec4aef404c0")
+		(property "Reference" "H2"
+			(at 53.34 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9961,7 +10206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "902fa5f9-33dd-4852-83c5-f3960848a374")
-		(property "Reference" "U9"
+		(property "Reference" "U4"
 			(at 160.02 93.98 0)
 			(effects
 				(font
@@ -10160,72 +10405,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "917f750c-ace1-47a1-94fc-c5c84874a117")
-		(property "Reference" "#PWR0373"
-			(at 45.72 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.276 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f44452dd-9780-4b9d-8504-16d8330cc71e")
-		)
-		(instances
-			(project "Erebus"
-				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0373")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10233,7 +10413,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 232.41 121.92 0)
+		(at 231.14 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10241,15 +10421,15 @@
 		(dnp no)
 		(uuid "9290df05-c4f2-4333-8ad3-8733648b75f5")
 		(property "Reference" "Y1"
-			(at 236.855 118.745 0)
+			(at 231.14 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "16MHz"
-			(at 238.76 123.825 0)
+		(property "Value" "8MHz"
+			(at 231.14 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +10437,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 232.41 121.92 0)
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10446,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YXC-X322516MLB4SI_C13738.pdf"
-			(at 232.41 121.92 0)
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 121.92 0)
+			(at 231.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,35 +10485,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 20.32 38.1 0)
+		(lib_id "Device:C_Small")
+		(at 238.76 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "986a3645-90c3-43a5-a8fe-d138f44ad375")
-		(property "Reference" "R93"
-			(at 22.86 36.83 0)
+		(uuid "96b6a9be-60d9-4669-bd69-74f2c16a8bc0")
+		(property "Reference" "C4"
+			(at 238.7663 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1"
-			(at 22.86 39.37 0)
+		(property "Value" "22p"
+			(at 238.7663 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 20.32 38.1 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,7 +10520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 38.1 0)
+			(at 238.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 38.1 0)
+			(at 238.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,15 +10538,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0dfbdfbf-fb56-4fd9-9944-a157cf9f2362")
+			(uuid "55cda4b1-1eab-47e3-b38e-14778b0a92ed")
 		)
 		(pin "2"
-			(uuid "7094037d-655d-4e66-a59b-45b727d87824")
+			(uuid "0868059e-0a52-412a-a852-0f6d038fb3f5")
 		)
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "R93")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10385,7 +10563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e511b3-6ef7-4ed2-98d4-859d848e58dc")
-		(property "Reference" "#PWR0369"
+		(property "Reference" "#PWR010"
 			(at 124.46 41.91 0)
 			(effects
 				(font
@@ -10435,7 +10613,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0369")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10451,7 +10629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a03de8d4-686d-4425-932b-89f666cb2d11")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR026"
 			(at 49.53 318.77 0)
 			(effects
 				(font
@@ -10501,7 +10679,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR05")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10517,7 +10695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1cd3014-2574-4e37-8b3f-b1544fed4164")
-		(property "Reference" "#PWR0365"
+		(property "Reference" "#PWR08"
 			(at 128.27 33.02 0)
 			(effects
 				(font
@@ -10568,7 +10746,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0365")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10640,7 +10818,7 @@
 			)
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR04")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10657,7 +10835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0126d0f-640c-4875-bdbb-a0d31958bba7")
-		(property "Reference" "#PWR0371"
+		(property "Reference" "#PWR013"
 			(at 147.32 44.45 0)
 			(effects
 				(font
@@ -10707,7 +10885,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0371")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10715,7 +10893,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 20.32 24.13 0)
+		(at 26.67 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10723,8 +10901,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ca2fc6-bc23-407f-9a99-99884280fb08")
-		(property "Reference" "#PWR0359"
-			(at 20.32 27.94 0)
+		(property "Reference" "#PWR03"
+			(at 26.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,7 +10911,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 20.32 19.685 0)
+			(at 26.67 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +10919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 24.13 0)
+			(at 26.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +10928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 24.13 0)
+			(at 26.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +10937,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 24.13 0)
+			(at 26.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,7 +10951,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0359")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10789,7 +10967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b54c64ba-fee2-4112-9c59-2d1a1a1511e8")
-		(property "Reference" "#PWR0363"
+		(property "Reference" "#PWR05"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -10840,7 +11018,77 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0363")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 26.67 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5698904-f626-4081-826b-aebf8943223c")
+		(property "Reference" "C1"
+			(at 29.21 31.7435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 29.21 34.2835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d20e791d-e1b5-4fdf-9a4d-26d5202fb5d4")
+		)
+		(pin "2"
+			(uuid "c7f4db84-5ad5-4f7e-bfc3-2fc820a1d501")
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10932,7 +11180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbff5022-96b9-4e93-9f2b-40723fa7259b")
-		(property "Reference" "#PWR0364"
+		(property "Reference" "#PWR06"
 			(at 71.12 30.48 0)
 			(effects
 				(font
@@ -10983,7 +11231,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0364")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11000,7 +11248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdd27375-7fd1-4599-ae09-08e400807e00")
-		(property "Reference" "#PWR0376"
+		(property "Reference" "#PWR024"
 			(at 132.08 157.48 0)
 			(effects
 				(font
@@ -11051,7 +11299,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0376")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11068,7 +11316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7d2a262-9efa-4d81-ae23-e3b8eb03546f")
-		(property "Reference" "#PWR0362"
+		(property "Reference" "#PWR02"
 			(at 181.61 29.21 0)
 			(effects
 				(font
@@ -11118,7 +11366,71 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0362")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 120.65 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca321d16-347c-46a4-ae11-8a7b3a6c7059")
+		(property "Reference" "H5"
+			(at 52.07 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 52.07 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -11190,7 +11502,7 @@
 			)
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR01")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11206,7 +11518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb5df3ca-0fe4-4e36-8766-43e0e060ccb7")
-		(property "Reference" "#PWR0366"
+		(property "Reference" "#PWR07"
 			(at 81.28 33.02 0)
 			(effects
 				(font
@@ -11257,7 +11569,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0366")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11348,7 +11660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd30f64e-0ab4-4fa6-9b18-6571049dc7ac")
-		(property "Reference" "U11"
+		(property "Reference" "U3"
 			(at 242.57 51.6636 0)
 			(effects
 				(font
@@ -11364,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MoonBoard:DFN2510"
+		(property "Footprint" "Erebus:DFN2510"
 			(at 242.57 36.83 0)
 			(effects
 				(font
@@ -11460,7 +11772,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "U11")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11468,15 +11780,15 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 31.75 26.67 0)
+		(at 38.1 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d6b8ba21-8564-4ddd-ac8c-d7908af5196b")
-		(property "Reference" "U8"
-			(at 31.75 21.59 0)
+		(property "Reference" "U1"
+			(at 38.1 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,7 +11796,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 30.48 23.495 0)
+			(at 36.83 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +11804,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 31.75 21.59 0)
+			(at 38.1 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11501,7 +11813,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 34.29 33.02 0)
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +11822,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 26.67 0)
+			(at 38.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11530,142 +11842,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 242.57 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db16d627-42bb-4861-98a6-8f649ad11216")
-		(property "Reference" "C174"
-			(at 245.11 126.9936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "8p"
-			(at 245.11 129.5336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 242.57 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b4e2998-e364-43bf-80dc-cdf549ecc71c")
-		)
-		(pin "2"
-			(uuid "a7429509-2354-4302-8eff-d506f40aeb87")
-		)
-		(instances
-			(project "Erebus"
-				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "C174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 20.32 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e48861dc-4e3b-4029-bfba-f136c20e595a")
-		(property "Reference" "#PWR0372"
-			(at 20.32 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ba661bf-84e2-4957-92b8-4e5f658d3c4e")
-		)
-		(instances
-			(project "Erebus"
-				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0372")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11681,7 +11858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e653f093-1759-41f6-8296-f8e2bc1471e9")
-		(property "Reference" "R92"
+		(property "Reference" "R3"
 			(at 160.02 34.29 0)
 			(effects
 				(font
@@ -11735,7 +11912,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "R92")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11751,7 +11928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e94ecfb6-8994-481a-90a3-9246dc466c8a")
-		(property "Reference" "#PWR0358"
+		(property "Reference" "#PWR025"
 			(at -13.97 241.3 0)
 			(effects
 				(font
@@ -11801,7 +11978,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR0358")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11876,7 +12053,199 @@
 			)
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
-					(reference "#PWR02")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 99.06 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6d1f97b-ec53-4113-b67b-57b35691766d")
+		(property "Reference" "H1"
+			(at 53.34 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 116.84 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc440b21-2f48-43ff-b675-3030d5fb729e")
+		(property "Reference" "H4"
+			(at 52.07 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 52.07 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 49.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 135.89 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdcac879-21fa-40fd-bec9-c538e51f1a72")
+		(property "Reference" "H7"
+			(at 52.07 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 52.07 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
+			(at 49.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Erebus"
+				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6"
+					(reference "H7")
 					(unit 1)
 				)
 			)

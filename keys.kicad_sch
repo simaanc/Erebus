@@ -4303,7 +4303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02aded24-b9cc-4b0e-b0d5-d6941d1a0eae")
-		(property "Reference" "S77"
+		(property "Reference" "S5"
 			(at 237.49 195.453 0)
 			(effects
 				(font
@@ -4351,7 +4351,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
-					(reference "S77")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -4367,7 +4367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b6dc56-5bb2-46b1-8bd9-94014c0b45b2")
-		(property "Reference" "S28"
+		(property "Reference" "S1"
 			(at 323.85 76.073 0)
 			(effects
 				(font
@@ -4415,7 +4415,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
-					(reference "S28")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -4431,7 +4431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90817338-c494-41e9-8360-5852d7ee7ffd")
-		(property "Reference" "S57"
+		(property "Reference" "S2"
 			(at 364.49 134.493 0)
 			(effects
 				(font
@@ -4479,7 +4479,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
-					(reference "S57")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -4495,7 +4495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd9721cb-8032-423f-bc5f-51a53ab59afc")
-		(property "Reference" "S59"
+		(property "Reference" "S3"
 			(at 68.58 154.813 0)
 			(effects
 				(font
@@ -4543,7 +4543,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
-					(reference "S59")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8d89787-0319-48d3-8eb4-2591f236f338")
-		(property "Reference" "S75"
+		(property "Reference" "S4"
 			(at 167.64 195.453 0)
 			(effects
 				(font
@@ -4607,7 +4607,7 @@
 		(instances
 			(project "Erebus"
 				(path "/d88b0230-c6e0-4e9b-98a2-e29afd320bb6/a87a9230-372e-45a2-97eb-0c46b92f006f/d0b129e8-fd05-4742-a062-660bf68fb884"
-					(reference "S75")
+					(reference "S4")
 					(unit 1)
 				)
 			)
