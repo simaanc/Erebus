@@ -4871,7 +4871,7 @@
 		(uuid "002ac48e-8f00-4656-bef7-171666d86786")
 	)
 	(label "KEYS_3_13"
-		(at 193.04 115.57 180)
+		(at 193.04 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4904,7 +4904,7 @@
 		(uuid "06a2160e-426f-4f92-85a2-ad4e8a7fb72c")
 	)
 	(label "KEYS_4_8"
-		(at 63.5 107.95 180)
+		(at 63.5 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4948,7 +4948,7 @@
 		(uuid "0ce6fbe1-693d-4ecf-956f-6f8feb348638")
 	)
 	(label "KEYS_5_4"
-		(at 63.5 105.41 180)
+		(at 63.5 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4958,19 +4958,8 @@
 		)
 		(uuid "0d391448-726e-4a41-8f61-c41cb0bda773")
 	)
-	(label "KEYS_2_4"
-		(at 195.58 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "102aa62c-9630-4377-8c8c-351254eafa88")
-	)
 	(label "KEYS_0_13"
-		(at 193.04 123.19 180)
+		(at 193.04 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4981,7 +4970,7 @@
 		(uuid "113d2ec9-b4ce-4769-9873-424b72b644db")
 	)
 	(label "KEYS_5_5"
-		(at 123.19 105.41 180)
+		(at 123.19 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5003,7 +4992,7 @@
 		(uuid "122a9c18-a4ef-4611-9dbd-a119d5be6dd4")
 	)
 	(label "KEYS_2_8"
-		(at 63.5 123.19 180)
+		(at 63.5 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5025,7 +5014,7 @@
 		(uuid "18a07421-f68a-484b-b814-8dd3962b8991")
 	)
 	(label "KEYS_4_10"
-		(at 123.19 102.87 180)
+		(at 123.19 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5068,6 +5057,17 @@
 		)
 		(uuid "1b248b6e-2457-409d-b333-20f66719a5cc")
 	)
+	(label "KEYS_0_6"
+		(at 195.58 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c5445ec-9123-40f7-ad77-0248992f69da")
+	)
 	(label "KEYS_3_6"
 		(at 199.39 49.53 0)
 		(fields_autoplaced yes)
@@ -5080,7 +5080,7 @@
 		(uuid "1dbfd68d-d9aa-4cdb-95a6-3a32f4f59a31")
 	)
 	(label "KEYS_2_13"
-		(at 193.04 125.73 180)
+		(at 193.04 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5124,7 +5124,7 @@
 		(uuid "22ee89a6-736d-486a-a308-95b000e0e32a")
 	)
 	(label "KEYS_5_0"
-		(at 71.12 35.56 180)
+		(at 71.12 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5190,7 +5190,7 @@
 		(uuid "2de9cd01-643d-4344-b2a5-d479f327f8be")
 	)
 	(label "KEYS_0_10"
-		(at 123.19 128.27 180)
+		(at 123.19 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5223,7 +5223,7 @@
 		(uuid "30c2c4b9-4c22-4194-a616-56d92add11e8")
 	)
 	(label "KEYS_2_2"
-		(at 137.16 67.31 180)
+		(at 137.16 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5245,7 +5245,7 @@
 		(uuid "357f9ade-1c30-4929-ae4f-e16a09d6d7d2")
 	)
 	(label "KEYS_0_1"
-		(at 71.12 60.96 180)
+		(at 71.12 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5254,6 +5254,17 @@
 			(justify right bottom)
 		)
 		(uuid "365ada2d-d2a9-4d6b-aa4d-fcc9eab1b4b4")
+	)
+	(label "KEYS_4_5"
+		(at 195.58 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36655b71-c8d3-4853-86ed-70c04cfc6fc1")
 	)
 	(label "KEYS_1_12"
 		(at 278.13 104.14 180)
@@ -5278,7 +5289,7 @@
 		(uuid "3ab3072e-79e1-4b19-a62f-e31dcb156e34")
 	)
 	(label "KEYS_0_2"
-		(at 71.12 55.88 180)
+		(at 71.12 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5311,7 +5322,7 @@
 		(uuid "3b43527e-8672-4408-8efc-ce1a8a0dcec9")
 	)
 	(label "KEYS_3_7"
-		(at 63.5 110.49 180)
+		(at 63.5 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5322,7 +5333,7 @@
 		(uuid "3b5cc352-c925-4b0f-baee-01ab66ae597b")
 	)
 	(label "KEYS_1_14"
-		(at 193.04 120.65 180)
+		(at 193.04 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5331,6 +5342,17 @@
 			(justify right bottom)
 		)
 		(uuid "3bce9f78-f4ca-48c2-8da6-07546580eecc")
+	)
+	(label "KEYS_4_4"
+		(at 195.58 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ed27a3d-0ed0-48b3-9ff3-83bef3ad04b9")
 	)
 	(label "S0"
 		(at 97.79 44.45 0)
@@ -5366,7 +5388,7 @@
 		(uuid "4020147d-3bdb-4c26-832d-2edd53e93935")
 	)
 	(label "KEYS_4_9"
-		(at 123.19 100.33 180)
+		(at 123.19 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5388,7 +5410,7 @@
 		(uuid "41b9c80d-3058-4a31-a912-3516d5225572")
 	)
 	(label "KEYS_2_9"
-		(at 123.19 135.89 180)
+		(at 123.19 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5420,8 +5442,8 @@
 		)
 		(uuid "42fc3055-caf9-4c67-94a6-2aa09d016245")
 	)
-	(label "KEYS_1_5"
-		(at 195.58 66.04 180)
+	(label "KEYS_2_5"
+		(at 195.58 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5429,7 +5451,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "458eb1d6-f069-4abe-99fb-09ae0e3c2935")
+		(uuid "472e4c1b-0aae-4505-8377-69da75a0fe4a")
 	)
 	(label "KEYS_1_8"
 		(at 63.5 125.73 180)
@@ -5498,7 +5520,7 @@
 		(uuid "4b0be7db-f86d-4ab7-b4a2-66270a4de837")
 	)
 	(label "KEYS_2_1"
-		(at 71.12 50.8 180)
+		(at 71.12 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5564,7 +5586,7 @@
 		(uuid "52175f7d-c708-445e-92ac-d85f4884babe")
 	)
 	(label "KEYS_4_13"
-		(at 193.04 107.95 180)
+		(at 193.04 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5575,7 +5597,7 @@
 		(uuid "5528f118-1507-415c-9027-c97d020593e2")
 	)
 	(label "KEYS_0_11"
-		(at 123.19 123.19 180)
+		(at 123.19 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5685,7 +5707,7 @@
 		(uuid "69b24809-8353-4885-a437-535568336199")
 	)
 	(label "KEYS_1_1"
-		(at 71.12 58.42 180)
+		(at 71.12 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5707,7 +5729,7 @@
 		(uuid "6ed3881e-7b3a-4984-a5e8-9750fc414d0e")
 	)
 	(label "KEYS_1_12"
-		(at 193.04 133.35 180)
+		(at 193.04 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5718,7 +5740,7 @@
 		(uuid "70002de1-22bb-4c6c-9fe9-530ccf764a3a")
 	)
 	(label "KEYS_0_4"
-		(at 137.16 59.69 180)
+		(at 137.16 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5740,7 +5762,7 @@
 		(uuid "70cc4c53-cc53-4e03-af28-b0641941a472")
 	)
 	(label "KEYS_4_0"
-		(at 71.12 33.02 180)
+		(at 71.12 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5749,17 +5771,6 @@
 			(justify right bottom)
 		)
 		(uuid "750bf03b-fd49-4dd5-a814-b742dda3d843")
-	)
-	(label "KEYS_3_5"
-		(at 195.58 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75d46fcb-b4ff-4969-97d1-3ebbf8ef3002")
 	)
 	(label "S0"
 		(at 31.75 45.72 0)
@@ -5784,7 +5795,7 @@
 		(uuid "7650f6db-4d97-4604-838b-cb866e8dfb1f")
 	)
 	(label "KEYS_0_0"
-		(at 71.12 63.5 180)
+		(at 71.12 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5839,7 +5850,7 @@
 		(uuid "78622665-26f1-4c57-83d8-9629c56e1e7e")
 	)
 	(label "KEYS_3_10"
-		(at 123.19 110.49 180)
+		(at 123.19 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5860,6 +5871,17 @@
 		)
 		(uuid "7aedefe0-7a58-44f1-a2a4-f50e0b1198fb")
 	)
+	(label "KEYS_2_4"
+		(at 195.58 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bd9977e-5b32-4ee4-85ae-6bf524b43136")
+	)
 	(label "KEYS_4_10"
 		(at 199.39 102.87 0)
 		(fields_autoplaced yes)
@@ -5871,19 +5893,8 @@
 		)
 		(uuid "7c507009-17f6-46bc-bffb-8b7bc26a34bf")
 	)
-	(label "KEYS_2_10"
-		(at 123.19 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ff3f2d0-d678-4240-ba01-87b3583f9483")
-	)
 	(label "KEYS_2_12"
-		(at 193.04 135.89 180)
+		(at 193.04 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5894,7 +5905,7 @@
 		(uuid "80757d90-4ec6-4790-9334-4791a1321f01")
 	)
 	(label "KEYS_2_3"
-		(at 137.16 54.61 180)
+		(at 137.16 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5949,7 +5960,7 @@
 		(uuid "851c4a12-67b7-4df0-9d2f-8cd94acf4619")
 	)
 	(label "KEYS_4_7"
-		(at 63.5 102.87 180)
+		(at 63.5 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5971,7 +5982,7 @@
 		(uuid "85f11e9b-2106-445c-9a23-5358330cffbd")
 	)
 	(label "KEYS_1_2"
-		(at 71.12 53.34 180)
+		(at 71.12 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5982,7 +5993,7 @@
 		(uuid "85f4a0f8-77ec-4333-90dc-7617fb7a901b")
 	)
 	(label "KEYS_1_10"
-		(at 123.19 125.73 180)
+		(at 123.19 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6002,17 +6013,6 @@
 			(justify right bottom)
 		)
 		(uuid "8afca374-cfb5-4e00-a8f6-498ea968779f")
-	)
-	(label "KEYS_0_5"
-		(at 195.58 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e4def0a-563e-4ddd-b827-d044d289c819")
 	)
 	(label "KEYS_4_2"
 		(at 137.16 34.29 180)
@@ -6037,7 +6037,7 @@
 		(uuid "9207ab28-6a68-49b8-96c3-01778984d243")
 	)
 	(label "KEYS_2_0"
-		(at 71.12 68.58 180)
+		(at 71.12 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6092,7 +6092,7 @@
 		(uuid "95f3ea8d-246a-44fa-9221-cced08de1efb")
 	)
 	(label "KEYS_3_11"
-		(at 193.04 97.79 180)
+		(at 193.04 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6124,17 +6124,6 @@
 		)
 		(uuid "980b0887-9b10-4908-8798-7a3b15e448d8")
 	)
-	(label "KEYS_1_6"
-		(at 195.58 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98c40866-727e-45dd-9c98-915397642fcc")
-	)
 	(label "S1"
 		(at 156.21 48.26 0)
 		(fields_autoplaced yes)
@@ -6147,7 +6136,7 @@
 		(uuid "9a8e0729-5a14-432f-bc25-83ab13cd39dc")
 	)
 	(label "KEYS_1_0"
-		(at 71.12 66.04 180)
+		(at 71.12 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6169,7 +6158,7 @@
 		(uuid "9d97fe41-def8-4aff-92d2-7ffa5fa8dec9")
 	)
 	(label "KEYS_0_7"
-		(at 63.5 130.81 180)
+		(at 63.5 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6180,7 +6169,7 @@
 		(uuid "a0d29ada-fe7a-4262-9ccb-f8823c70be64")
 	)
 	(label "KEYS_5_7"
-		(at 193.04 110.49 180)
+		(at 193.04 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6213,7 +6202,7 @@
 		(uuid "a289fefb-90e5-434b-b1f2-3ee27fe04fa9")
 	)
 	(label "KEYS_4_11"
-		(at 123.19 107.95 180)
+		(at 123.19 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6246,7 +6235,7 @@
 		(uuid "a52c15d2-8e84-4a2a-bf8d-ee1bf8efd6f3")
 	)
 	(label "KEYS_3_8"
-		(at 63.5 113.03 180)
+		(at 63.5 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6268,7 +6257,7 @@
 		(uuid "a771e7d8-8d89-4a3d-8877-0b14a24b9a92")
 	)
 	(label "KEYS_1_3"
-		(at 137.16 64.77 180)
+		(at 137.16 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6301,7 +6290,7 @@
 		(uuid "ab4ee5f5-1987-47c6-9418-901c5c87dec5")
 	)
 	(label "KEYS_0_3"
-		(at 137.16 62.23 180)
+		(at 137.16 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6312,7 +6301,7 @@
 		(uuid "acde7e75-5ac5-4729-88f1-6f6accddb24a")
 	)
 	(label "KEYS_1_4"
-		(at 137.16 57.15 180)
+		(at 137.16 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6345,7 +6334,7 @@
 		(uuid "afdf1c9c-3c49-4f81-8a41-9a0d6d02687b")
 	)
 	(label "KEYS_4_6"
-		(at 63.5 100.33 180)
+		(at 63.5 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6389,7 +6378,7 @@
 		(uuid "b4d5f922-abe1-498e-a99b-37091ce6d025")
 	)
 	(label "KEYS_5_6"
-		(at 193.04 105.41 180)
+		(at 193.04 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6410,8 +6399,30 @@
 		)
 		(uuid "b6be45e9-bf30-4b6d-913a-679d3811f06a")
 	)
+	(label "KEYS_5_3"
+		(at 195.58 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b88418e5-380c-4b22-a7ad-f086993f11a9")
+	)
+	(label "KEYS_0_5"
+		(at 195.58 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b89678b7-8c81-4a98-9d4d-cc8c2b7609ee")
+	)
 	(label "KEYS_5_8"
-		(at 193.04 113.03 180)
+		(at 193.04 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6433,7 +6444,7 @@
 		(uuid "b91637c9-8a1f-4bbb-99e1-a8375406be68")
 	)
 	(label "KEYS_2_6"
-		(at 63.5 135.89 180)
+		(at 63.5 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6465,6 +6476,17 @@
 		)
 		(uuid "bdca8e73-bf37-4794-9af8-659e7be318d7")
 	)
+	(label "KEYS_2_10"
+		(at 123.19 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bea24caa-e04c-4f9b-bb28-6b78704e240a")
+	)
 	(label "KEYS_3_9"
 		(at 199.39 57.15 0)
 		(fields_autoplaced yes)
@@ -6477,7 +6499,7 @@
 		(uuid "bf5c2ab0-c37b-4797-a219-7c9dbadc762b")
 	)
 	(label "KEYS_1_11"
-		(at 123.19 118.11 180)
+		(at 123.19 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6487,8 +6509,8 @@
 		)
 		(uuid "c5f285c5-0a76-4762-884f-235d5d0a5309")
 	)
-	(label "KEYS_0_6"
-		(at 195.58 60.96 180)
+	(label "KEYS_1_6"
+		(at 195.58 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6496,7 +6518,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c90330b5-7114-4ca0-930f-0a02d0753d1a")
+		(uuid "c97df1c9-7f07-4721-a907-ffabc8524437")
 	)
 	(label "KEYS_0_9"
 		(at 278.13 46.99 180)
@@ -6531,19 +6553,8 @@
 		)
 		(uuid "cb6dfc02-a3f0-4106-8d3b-e94f3204a804")
 	)
-	(label "KEYS_4_5"
-		(at 195.58 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbf0cf76-c2d8-4fd9-94eb-0686ed8348d7")
-	)
 	(label "KEYS_2_7"
-		(at 63.5 120.65 180)
+		(at 63.5 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6565,7 +6576,7 @@
 		(uuid "ce35288b-0ea7-43bf-b212-4cb3f434420c")
 	)
 	(label "KEYS_2_11"
-		(at 123.19 120.65 180)
+		(at 123.19 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6575,19 +6586,8 @@
 		)
 		(uuid "cf7fc64c-ca71-4662-968a-73dde8721c87")
 	)
-	(label "KEYS_5_3"
-		(at 195.58 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d05fddcd-bde6-49f1-89d4-dadc9a3451fe")
-	)
 	(label "KEYS_3_1"
-		(at 71.12 40.64 180)
+		(at 71.12 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6718,8 +6718,19 @@
 		)
 		(uuid "de8411fb-a1ae-4150-bdc1-9942d8fae7c4")
 	)
+	(label "KEYS_1_5"
+		(at 195.58 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df4e775d-4e88-4bcb-833e-f2052ba2b97b")
+	)
 	(label "KEYS_0_8"
-		(at 63.5 128.27 180)
+		(at 63.5 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6741,7 +6752,7 @@
 		(uuid "e288a64f-8042-4929-8c6e-3c68ef472d37")
 	)
 	(label "KEYS_4_12"
-		(at 193.04 100.33 180)
+		(at 193.04 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6762,17 +6773,6 @@
 		)
 		(uuid "e6a90155-17c8-4f87-a53e-f92495bbb580")
 	)
-	(label "KEYS_2_5"
-		(at 195.58 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e75ae8a5-0997-4842-bf8f-61c5bc612905")
-	)
 	(label "KEYS_3_13"
 		(at 199.39 67.31 0)
 		(fields_autoplaced yes)
@@ -6785,7 +6785,7 @@
 		(uuid "ea9a60ab-6faa-4db5-9b9a-3453357637c8")
 	)
 	(label "KEYS_1_7"
-		(at 63.5 133.35 180)
+		(at 63.5 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6794,17 +6794,6 @@
 			(justify right bottom)
 		)
 		(uuid "ead6acff-56c2-44ed-8b84-49759e12f99a")
-	)
-	(label "KEYS_4_4"
-		(at 195.58 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec1d2593-f1fb-4cf2-a14b-a63f15501d57")
 	)
 	(label "KEYS_4_1"
 		(at 199.39 80.01 0)
@@ -6818,7 +6807,7 @@
 		(uuid "ec48c386-f871-4a0a-9ad6-a48e358fc300")
 	)
 	(label "KEYS_1_9"
-		(at 123.19 133.35 180)
+		(at 123.19 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6873,7 +6862,7 @@
 		(uuid "f445f21b-8062-4847-8fc5-a5ae9b8f1037")
 	)
 	(label "KEYS_1_13"
-		(at 193.04 128.27 180)
+		(at 193.04 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6882,6 +6871,17 @@
 			(justify right bottom)
 		)
 		(uuid "f5062087-01a3-49d3-9223-f5c1478da4eb")
+	)
+	(label "KEYS_3_5"
+		(at 195.58 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fac0f6b8-4915-4016-8345-030c95af4d1f")
 	)
 	(label "KEYS_3_10"
 		(at 199.39 59.69 0)
@@ -8747,7 +8747,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c368b4eb-dfd4-454c-855c-87056df0d673")
 		(property "Reference" "U7"
 			(at 50.4541 21.59 0)
