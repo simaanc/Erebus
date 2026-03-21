@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EREBUSlib")(type "KiCad")(uri "${KIPRJMOD}/EREBUSlib.kicad_sym")(options "")(descr ""))
+)
