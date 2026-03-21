@@ -5,11 +5,11 @@
 	(uuid "3934cdea-42c8-4ab1-b1be-2c4978ab08ae")
 	(paper "A4")
 	(title_block
-		(title "Klor Split Keyboard")
-		(date "2022-06-21")
-		(rev "1.3")
-		(comment 1 "Schematic based on Sofle")
-		(comment 2 "Author: GEIST")
+		(title "Erebus Split Keyboard")
+		(date "2026-03-20")
+		(rev "1.0")
+		(comment 1 "Schematic based on Klor")
+		(comment 2 "Author: simaanc")
 	)
 	(lib_symbols
 		(symbol "Buzzard:ProMicro"

@@ -8,10 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Klor Split Keyboard")
-		(date "2022-07-08")
-		(rev "v1.3.0")
-		(comment 1 "Author: GEIST")
+		(title "Erebus Split Keyboard")
+		(date "2026-03-20")
+		(rev "v1.0.0")
+		(comment 1 "Author: simaanc")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -2611,7 +2611,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -7.000003)
+			(end 6 -7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2621,7 +2621,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 7.000003 6)
+			(end 7.000004 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2770,7 +2770,7 @@
 			(uuid "2c986670-ca42-4b1c-b6b0-c34d1acb59ef")
 		)
 		(fp_line
-			(start -7.000003 -6)
+			(start -7.000004 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -2791,7 +2791,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 7.000003)
+			(end -6 7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2914,7 +2914,7 @@
 			(uuid "411ea838-bd5f-4ebc-ab22-1e4d3f04d70d")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540004 356)
+			(at 3.81 -2.540005 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -8218,7 +8218,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -7.000003)
+			(end 6 -7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8228,7 +8228,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 7.000003 6)
+			(end 7.000004 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8377,7 +8377,7 @@
 			(uuid "44ecc7ea-0abe-4e1d-8341-fee1c1e71689")
 		)
 		(fp_line
-			(start -7.000003 -6)
+			(start -7.000004 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -8398,7 +8398,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 7.000003)
+			(end -6 7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8521,7 +8521,7 @@
 			(uuid "13cd2d71-67f9-460f-9f42-df8c5c4df39f")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540004 356)
+			(at 3.81 -2.540005 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -14441,7 +14441,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -7.000003)
+			(end 6 -7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14451,7 +14451,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 7.000003 6)
+			(end 7.000004 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14600,7 +14600,7 @@
 			(uuid "c65d6da0-6cd7-4059-bca5-397bdc24b88f")
 		)
 		(fp_line
-			(start -7.000003 -6)
+			(start -7.000004 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -14621,7 +14621,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 7.000003)
+			(end -6 7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14744,7 +14744,7 @@
 			(uuid "050a70b1-250a-4d12-83a1-6c0ea10810f6")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540004 356)
+			(at 3.81 -2.540005 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -17475,7 +17475,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -7.000003)
+			(end 6 -7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17485,7 +17485,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 7.000003 6)
+			(end 7.000004 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17634,7 +17634,7 @@
 			(uuid "60d3e58a-0529-4e50-9ec4-f91bd378649e")
 		)
 		(fp_line
-			(start -7.000003 -6)
+			(start -7.000004 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -17655,7 +17655,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 7.000003)
+			(end -6 7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17778,7 +17778,7 @@
 			(uuid "afed9de4-ee9d-4005-9e80-a78f361a9c00")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540004 356)
+			(at 3.81 -2.540005 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
