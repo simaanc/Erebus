@@ -1,0 +1,1360 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e26e8560-b576-4cef-910d-2f7bacca8a14")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 128.27 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22710c5a-aa1b-4736-ab03-90e0dadd4b9a")
+		(property "Sheetname" "sensor9"
+			(at 128.27 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 128.27 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 140.97 41.91 0)
+			(uuid "e28f8de7-cd12-454f-8851-29867c86c669")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 83.82)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25950ba7-05b2-4f73-9eb6-0b99e990cc5b")
+		(property "Sheetname" "sensor26"
+			(at 128.27 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 128.27 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 140.97 86.36 0)
+			(uuid "2fab8942-9e67-481b-88a7-25246acbd162")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 24.13)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33ce18f8-ca88-497d-a30e-e4b4323cbaa1")
+		(property "Sheetname" "sensor1"
+			(at 54.61 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 54.61 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 67.31 26.67 0)
+			(uuid "259a8dab-8ec9-4850-ad75-9a4cacf5112a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "43289181-3317-4899-9d2a-2fb55aa10a2c")
+		(property "Sheetname" "sensor8"
+			(at 104.14 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 104.14 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 116.84 41.91 0)
+			(uuid "62db26d7-0e04-413d-8481-50fc6b462d52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ac7f06c-2375-4872-87ae-efc960e4b102")
+		(property "Sheetname" "sensor14"
+			(at 128.27 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 128.27 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 140.97 57.15 0)
+			(uuid "16d65f58-44f8-43c2-bade-980504529d44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 83.82)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50d779ca-98df-471e-9a68-433108ca1712")
+		(property "Sheetname" "sensor23"
+			(at 54.61 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 54.61 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 67.31 86.36 0)
+			(uuid "656cbc5f-4dcb-491f-83e3-542ce970097b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5105b408-e351-4525-bc7b-863a74b1cfd8")
+		(property "Sheetname" "sensor12"
+			(at 78.74 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 78.74 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 91.44 57.15 0)
+			(uuid "e236afeb-6500-40c4-a1d9-2b2448fc8465")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 83.82)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "522bf89e-4159-4f23-b4a9-c5e7f3fe19c4")
+		(property "Sheetname" "sensor25"
+			(at 104.14 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 104.14 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 116.84 86.36 0)
+			(uuid "2975c35c-8bd0-48fb-a9e6-207fd571862f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 68.58)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53468593-0571-4a2d-a47c-11ecfad2ea18")
+		(property "Sheetname" "sensor19"
+			(at 104.14 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 104.14 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 116.84 71.12 0)
+			(uuid "ed5c8600-ec0a-435d-a9de-71d2322c9b7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 68.58)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a36af8d-8146-4ec7-bf46-879a37524889")
+		(property "Sheetname" "sensor20"
+			(at 128.27 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 128.27 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 140.97 71.12 0)
+			(uuid "2d71c5a0-5511-4984-8921-cee24fadac4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 24.13)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66bc746a-c39f-4a36-8d58-ca6a055be95d")
+		(property "Sheetname" "sensor0"
+			(at 31.75 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 31.75 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 44.45 26.67 0)
+			(uuid "41fd7fb2-d195-4369-a25f-de8c3e232df1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 68.58)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72b7d017-6014-4290-9659-a004b27e0b6a")
+		(property "Sheetname" "sensor17"
+			(at 54.61 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 54.61 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 67.31 71.12 0)
+			(uuid "d9cd9b62-7c0a-4872-a347-27fcacb2546e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 24.13)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "80aaf903-ddb9-4b5f-a48d-55ca57a55391")
+		(property "Sheetname" "sensor4"
+			(at 128.27 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 128.27 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 140.97 26.67 0)
+			(uuid "d8c78cbf-3e04-446a-892a-4cea838dc4b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 24.13)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81c0660b-4437-4256-b54b-5b27bb6cc51d")
+		(property "Sheetname" "sensor3"
+			(at 104.14 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 104.14 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 116.84 26.67 0)
+			(uuid "2e2234f4-69c0-4d8d-8e90-12ed48d89ff8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "830fa6ab-96e5-4a3e-a74c-36ad4272d684")
+		(property "Sheetname" "sensor10"
+			(at 31.75 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 31.75 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 44.45 57.15 0)
+			(uuid "5e868060-465b-42ae-bf28-9cbebde29833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84ed486d-88be-4ac6-8b05-51b4008866ad")
+		(property "Sheetname" "sensor13"
+			(at 104.14 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 104.14 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 116.84 57.15 0)
+			(uuid "dd38c0e3-2e45-41b2-a3df-222965d90a79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96424d46-8e06-4743-ac24-e2dbf83b18cc")
+		(property "Sheetname" "sensor6"
+			(at 54.61 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 54.61 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 67.31 41.91 0)
+			(uuid "c8a0cfad-77e9-40fb-a405-9571a45a655b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 68.58)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97761a2b-aa1a-4874-b2aa-b616066a137f")
+		(property "Sheetname" "sensor16"
+			(at 31.75 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 31.75 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 44.45 71.12 0)
+			(uuid "b5d2e947-fab1-4870-8b3e-f7c15bc96236")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a31ad90a-489a-4716-8359-ca30a41d8612")
+		(property "Sheetname" "sensor5"
+			(at 31.75 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 31.75 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 44.45 41.91 0)
+			(uuid "e3b39fba-3bf3-4a21-8d94-01289806d69c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 68.58)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa440281-0800-4ff4-9364-21a8a79f5429")
+		(property "Sheetname" "sensor21"
+			(at 152.4 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 152.4 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 165.1 71.12 0)
+			(uuid "9cb28559-d441-4080-81b1-f7fb30169975")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aaffd277-aaf4-403e-9eb1-4544bb3f6e79")
+		(property "Sheetname" "sensor15"
+			(at 152.4 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 152.4 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 165.1 57.15 0)
+			(uuid "7d2117a7-23f6-4489-9033-6d98230d72b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 24.13)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b58907a0-3e7b-42d7-a666-0fdad13df48a")
+		(property "Sheetname" "sensor2"
+			(at 78.74 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 78.74 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 91.44 26.67 0)
+			(uuid "dc03a7fa-c206-47d0-85e2-f5e6b54e9903")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 39.37)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb96dc3e-71c8-47f4-8c9c-50cdaf285491")
+		(property "Sheetname" "sensor7"
+			(at 78.74 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 78.74 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 91.44 41.91 0)
+			(uuid "16fb97ca-7958-4064-ba83-dda0d682edaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 83.82)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d26e57d9-9b12-4516-9bb9-5dbe9680ec14")
+		(property "Sheetname" "sensor24"
+			(at 78.74 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 78.74 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 91.44 86.36 0)
+			(uuid "013c681c-ca7c-419e-8604-ced1e69e9e44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 68.58)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db4369e1-0754-404e-83de-17b5ee2b3949")
+		(property "Sheetname" "sensor18"
+			(at 78.74 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 78.74 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 91.44 71.12 0)
+			(uuid "d0c4bc85-d8b6-4376-8e06-ba9ab67413b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 54.61)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc7bae87-509d-46ed-83ba-7d984cb3689f")
+		(property "Sheetname" "sensor11"
+			(at 54.61 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 54.61 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "output" output
+			(at 67.31 57.15 0)
+			(uuid "c2a9fa8a-56af-46d3-9531-a13533b6b01f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a/91acb3a3-c12e-4015-b389-fc768e7f332d"
+					(page "15")
+				)
+			)
+		)
+	)
+)

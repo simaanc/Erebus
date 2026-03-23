@@ -1,0 +1,50 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fafe1e63-60ad-4035-8883-7db989fcf5a5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 215.9 40.64)
+		(size 41.91 87.63)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91acb3a3-c12e-4015-b389-fc768e7f332d")
+		(property "Sheetname" "keys"
+			(at 215.9 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keys.kicad_sch"
+			(at 215.9 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "erebus"
+				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae/77e963d4-3b48-4e27-a024-bfc21d37b77a"
+					(page "3")
+				)
+			)
+		)
+	)
+)
